@@ -88,6 +88,63 @@ We also acknowledge the efforts of local communities, research institutions, and
 | Next               | CMCC                | Researcher           | x                             |
 | Next               | CMCC                | Researcher           | x                             |
 
+
+
+---
+
+## How to Work on the Scripts together
+
+To maintain an organized and efficient repository, follow these step-by-step instructions for contributing to the project scripts:
+
+### Step 1: Identify Your Focus Area
+If you are working on a specific task (e.g., landscape characterization), navigate to the relevant folder in the repository. For instance:
+- **Landscape Characterization**: `scripts/landscape_characterization/`
+- **Climate Risk Profiling**: `scripts/climate_risk_profiles/`
+
+### Step 2: Fork the Repository
+Fork the repository to your personal GitHub account by clicking the **Fork** button on the repository page.
+
+### Step 3: Clone Your Fork
+Clone your forked repository to your local machine using:
+```bash
+git clone https://github.com/<your-username>/DesirMED-WP4.git
+cd DesirMED-WP4
+
+### Step 4: Request Contributor Access (Optional)
+If you intend to contribute directly, submit a **Contributor Access Request** to the repository maintainers. Ensure you have reviewed the contribution guidelines in `CONTRIBUTING.md`.
+
+### Step 5: Make Your Changes
+Add your new scripts, analytical tools, or updates to the appropriate folder. Ensure your changes are well-documented with clear descriptions in the script headers or markdown files. For example:
+- Purpose of the script
+- Input requirements
+- Expected outputs
+
+### Step 6: Test Your Changes
+Run all necessary tests locally to ensure your additions work correctly and do not break existing scripts. For instance:
+```bash
+python scripts/landscape_characterization/your_script.py
+
+### Step 7: Commit Your Changes
+Stage and commit your changes with clear and concise messages:
+git add .
+git commit -m "Add new analysis for landscape characterization"
+
+
+### Step 8: Push and Create a Pull Request
+Push your changes to your forked repository:
+git push origin main
+Navigate to the original repository and create a Pull Request (PR) with a detailed description of your updates.
+
+### Step 9: Engage in Review
+Respond promptly to feedback from repository maintainers or reviewers. Make requested updates and resubmit the PR if necessary:
+git push origin main
+Respond promptly to feedback from repository maintainers or reviewers. Make requested updates and resubmit the PR if necessary:
+
+# Edit the code as per feedback
+git add .
+git commit -m "Update analysis based on review feedback"
+git push origin main
+
 ---
 
 ## Installation Guide
