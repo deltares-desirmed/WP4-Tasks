@@ -96,23 +96,23 @@ We also acknowledge the efforts of local communities, research institutions, and
 
 To maintain an organized and efficient repository, follow these step-by-step instructions for contributing to the project scripts:
 
-### Step 1: Identify Your Focus Area
+## Step 1: Identify Your Focus Area
 If you are working on a specific task (e.g., landscape characterization), navigate to the relevant folder in the repository. For instance:
 - **Landscape Characterization**: `scripts/landscape_characterization/`
 - **Climate Risk Profiling**: `scripts/climate_risk_profiles/`
 
-### Step 2: Fork the Repository
+## Step 2: Fork the Repository
 Fork the repository to your personal GitHub account by clicking the **Fork** button on the repository page.
 
-### Step 3: Clone Your Fork
+## Step 3: Clone Your Fork
 Clone your forked repository to your local machine using:
-```bash
 git clone https://github.com/<your-username>/DesirMED-WP4.git
 cd DesirMED-WP4
 
 ---
 
-### Step 4: Request Contributor Access (Optional)
+## Step 4: Request Contributor Access (Optional)
+If you are working on a specific task (e.g., landscape characterization), navigate to the relevant folder in the repository. For instance:
 If you intend to contribute directly, submit a **Contributor Access Request** to the repository maintainers. Ensure you have reviewed the contribution guidelines in `CONTRIBUTING.md`.
 
 ---
@@ -127,7 +127,6 @@ Add your new scripts, analytical tools, or updates to the appropriate folder. En
 
 ### Step 6: Test Your Changes
 Run all necessary tests locally to ensure your additions work correctly and do not break existing scripts. For instance:
-```bash
 python scripts/landscape_characterization/your_script.py
 
 ---
