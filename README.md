@@ -1,30 +1,15 @@
 ```markdown
 # DesirMED: Nature-Based Solutions for Climate Resilience in the Mediterranean
 
-<p align="center">
-  <a href="https://github.com/DesirMED"><img alt="GitHub Followers" src="https://img.shields.io/github/followers/DesirMED?style=social"></a>
-  <a href="https://visitor-badge.laobi.icu/badge?page_id=DesirMED.WP4"><img alt="Visitors" src="https://visitor-badge.laobi.icu/badge?page_id=DesirMED.WP4"></a>
-</p>
-
-<p align="center">
-  <a href="https://scholar.google.com" style="text-decoration:none;">
-    <img alt="Google Scholar" src="https://img.shields.io/badge/Google-Scholar-blue">
-  </a>
-  <a href="https://cordis.europa.eu/project/id/101112972" style="text-decoration:none;">
-    <img alt="Official Horizon Page" src="https://img.shields.io/badge/Official-Horizon%20Page-green">
-  </a>
-  <a href="https://www.researchgate.net" style="text-decoration:none;">
-    <img alt="ResearchGate" src="https://img.shields.io/badge/ResearchGate-Profile-blueviolet">
-  </a>
-  <a href="https://www.linkedin.com" style="text-decoration:none;">
-    <img alt="LinkedIn" src="https://img.shields.io/badge/My-LinkedIn-blue">
-  </a>
-  <a href="https://www.buymeacoffee.com" style="text-decoration:none;">
-    <img alt="Donate" src="https://img.shields.io/badge/Donate-Buy%20me%20a%20coffee-orange">
-  </a>
-</p>
-
----
+[![GitHub Badge](https://img.shields.io/github/followers/giswqs?style=social)](https://github.com/giswqs?tab=followers)
+[![Twitter Badge](https://img.shields.io/twitter/follow/giswqs?style=social)](https://twitter.com/giswqs)
+[![Google Scholar Badge](https://img.shields.io/badge/Google-Scholar-lightgrey)](https://scholar.google.com/citations?user=vmml4_0AAAAJ&hl=en)
+[![UTK Badge](https://img.shields.io/badge/UTK-Faculty-orange)](https://faculty.utk.edu/Qiusheng.Wu)
+[![YouTube Badge](https://img.shields.io/badge/My-YouTube-red)](https://www.youtube.com/@giswqs)
+[![LinkedIn Badge](https://img.shields.io/badge/My-LinkedIn-blue)](https://www.linkedin.com/in/giswqs)
+[![CV Badge](https://img.shields.io/badge/My-CV-critical)](https://arcgis.me/cv/)
+[![Donate Badge](https://img.shields.io/badge/Donate-Buy%20me%20a%20coffee-yellowgreen.svg)](https://www.buymeacoffee.com/giswqs)
+![Visitor Badge](https://visitor-badge.laobi.icu/badge?page_id=giswqs.giswqs)
 
 ## Project Scope
 
