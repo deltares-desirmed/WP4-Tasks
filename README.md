@@ -85,8 +85,8 @@ We also acknowledge the efforts of local communities, research institutions, and
 | Stefano Gamberoni  | Deltares            | Researcher           | Stefano.Gamberoni@deltares.nl |
 | Desmond Lartey     | Deltares            | Researcher           | desmond.lartey@deltares.nl    |
 | Vuong Pham         | CMCC                | Researcher           | vuong.pham@cmcc.it            |
-| Next               | CMCC                | Researcher           | grace.lee@stu.com             |
-| Next               | CMCC                | Researcher           | henry.turner@uvw.org          |
+| Next               | CMCC                | Researcher           | x                             |
+| Next               | CMCC                | Researcher           | x                             |
 
 ---
 
