@@ -4,7 +4,7 @@
 [![Google Scholar Badge](https://img.shields.io/badge/Google-Scholar-lightgrey)](https://scholar.google.com)
 [![Official Horizon Page Badge](https://img.shields.io/badge/Official-Horizon%20Page-green)](https://cordis.europa.eu/project/id/101112972)
 [![ResearchGate Badge](https://img.shields.io/badge/ResearchGate-Profile-blueviolet)](https://www.researchgate.net)
-[![LinkedIn Badge](https://img.shields.io/badge/My-LinkedIn-blue)](https://www.linkedin.com)
+[![LinkedIn Badge](https://img.shields.io/badge/LinkedIn-blue)](https://www.linkedin.com/company/deltares/mycompany/)
 [![Donate Badge](https://img.shields.io/badge/Donate-Buy%20me%20a%20coffee-yellowgreen.svg)](https://www.buymeacoffee.com)
 ![Visitor Badge](https://visitor-badge.laobi.icu/badge?page_id=DesirMED.WP4)
 
@@ -110,40 +110,45 @@ Clone your forked repository to your local machine using:
 git clone https://github.com/<your-username>/DesirMED-WP4.git
 cd DesirMED-WP4
 
+---
+
 ### Step 4: Request Contributor Access (Optional)
-If you intend to contribute directly, submit a **Contributor Access Request** to the repository maintainers. Ensure you have reviewed the contribution guidelines in `CONTRIBUTING.md`.
+### Steps 3 to 9: Contribution Workflow
 
-### Step 5: Make Your Changes
-Add your new scripts, analytical tools, or updates to the appropriate folder. Ensure your changes are well-documented with clear descriptions in the script headers or markdown files. For example:
-- Purpose of the script
-- Input requirements
-- Expected outputs
-
-### Step 6: Test Your Changes
-Run all necessary tests locally to ensure your additions work correctly and do not break existing scripts. For instance:
 ```bash
+# Step 3: Clone Your Fork
+git clone https://github.com/<your-username>/DesirMED-WP4.git
+cd DesirMED-WP4
+
+# Step 4: Request Contributor Access (Optional)
+# If you intend to contribute directly, submit a Contributor Access Request 
+# to the repository maintainers. Ensure you have reviewed the contribution guidelines in CONTRIBUTING.md.
+
+# Step 5: Make Your Changes
+# Add your new scripts, analytical tools, or updates to the appropriate folder. 
+# Document your changes clearly, including:
+# - Purpose of the script
+# - Input requirements
+# - Expected outputs
+
+# Step 6: Test Your Changes
 python scripts/landscape_characterization/your_script.py
 
-### Step 7: Commit Your Changes
-Stage and commit your changes with clear and concise messages:
+# Step 7: Commit Your Changes
 git add .
 git commit -m "Add new analysis for landscape characterization"
 
-
-### Step 8: Push and Create a Pull Request
-Push your changes to your forked repository:
+# Step 8: Push and Create a Pull Request
 git push origin main
-Navigate to the original repository and create a Pull Request (PR) with a detailed description of your updates.
+# Navigate to the original repository and create a Pull Request (PR) with a detailed description of your updates.
 
-### Step 9: Engage in Review
-Respond promptly to feedback from repository maintainers or reviewers. Make requested updates and resubmit the PR if necessary:
-git push origin main
-Respond promptly to feedback from repository maintainers or reviewers. Make requested updates and resubmit the PR if necessary:
-
-# Edit the code as per feedback
+# Step 9: Engage in Review
+# Respond promptly to feedback from repository maintainers or reviewers. 
+# Make requested updates and resubmit the PR if necessary.
 git add .
 git commit -m "Update analysis based on review feedback"
 git push origin main
+
 
 ---
 
