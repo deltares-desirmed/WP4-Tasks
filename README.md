@@ -1,3 +1,4 @@
+```markdown
 # DesirMED: Nature-Based Solutions for Climate Resilience in the Mediterranean
 
 [![GitHub Badge](https://img.shields.io/github/followers/DesirMED?style=social)](https://github.com/DesirMED?tab=followers)
@@ -8,14 +9,29 @@
 [![Donate Badge](https://img.shields.io/badge/Donate-Buy%20me%20a%20coffee-yellowgreen.svg)](https://www.buymeacoffee.com)
 ![Visitor Badge](https://visitor-badge.laobi.icu/badge?page_id=DesirMED.WP4)
 
-DesirMED is a Horizon Europe-funded project addressing climate resilience in the Mediterranean region. It focuses on demonstrating and mainstreaming **nature-based solutions (NbS)** for enhancing ecosystem sustainability, mitigating climate impacts, and fostering adaptive governance. This repository supports the ongoing work for Work Packages (WP) 4.1 and 4.2, including data, tools, and methodologies for geospatial analysis.
+---
+
+## Project Scope
+
+**DesirMED** is part of the Horizon Europe-funded project dedicated to enhancing climate resilience in the Mediterranean region. This repository focuses on implementing and showcasing the outputs of **Work Packages (WP) 4.1 and 4.2**, which aim to:
+
+- **Preserve and restore ecosystems** using nature-based solutions (NbS).
+- **Enhance climate resilience** by applying advanced analytical tools and governance systems.
+- **Empower stakeholders** with open-source geospatial tools to design and evaluate climate adaptation strategies.
+
+### Key Objectives
+- Identifying and characterizing Mediterranean landscapes critical for climate adaptation.
+- Developing comprehensive regional risk profiles using geospatial data and models.
+- Synthesizing results to inform decision-makers and local communities.
 
 ---
 
-### Repository Highlights
+## Repository Highlights
 
-- **Interactive Dashboards**: Explore key geospatial metrics for climate resilience.
-- **Scripts and Tools**: Python-based algorithms for landscape and climate-risk analysis.
+This repository contains:
+
+- **Scripts and Tools**: Python-based algorithms for landscape analysis and climate-risk modeling.
+- **Interactive Dashboards**: Tools to explore geospatial metrics for ecosystem services and climate resilience.
 - **Publications and Reports**:
   - [Key Publications](#)
   - [D4.1 Report: Landscape Characterization](#)
@@ -23,7 +39,9 @@ DesirMED is a Horizon Europe-funded project addressing climate resilience in the
 
 ---
 
-### Open-Source Contributions
+## Open-Source Contributions
+
+Our repository includes tools for:
 
 - **Geospatial Analysis**: [geemap](https://github.com/DesirMED/geemap) | [landcover-tools](https://github.com/DesirMED/landcover-tools)
 - **Interactive Mapping**: [gee-visualizer](https://github.com/DesirMED/gee-visualizer)
@@ -31,15 +49,7 @@ DesirMED is a Horizon Europe-funded project addressing climate resilience in the
 
 ---
 
-### Key Objectives
-
-- Restoring degraded ecosystems using NbS.
-- Innovating governance systems to support climate adaptation.
-- Empowering stakeholders with advanced analytical tools.
-
----
-
-### Contributors
+## Contributors
 
 | Name               | Affiliation         | Role                 | Email                      |
 |--------------------|---------------------|----------------------|----------------------------|
@@ -56,17 +66,34 @@ DesirMED is a Horizon Europe-funded project addressing climate resilience in the
 
 ---
 
-### Latest Updates
+## Installation Guide
 
-- **New Geospatial Dashboard Released**: Explore climate-risk metrics for Mediterranean landscapes.
-- **Tool Highlight**: [gee-visualizer](https://github.com/DesirMED/gee-visualizer) for real-time map rendering.
-- **New Publications**: Access our [official reports](#).
-
----
-
-### Installation Guide
-
-#### Prerequisites
+### Prerequisites
 ```plaintext
 Python >= 3.8
 Dependencies: geopandas, numpy, matplotlib, scipy
+```
+
+### Setup Instructions
+```bash
+# Clone the repository
+git clone https://github.com/DesirMED/DesirMED-WP4.git
+
+# Navigate to the project folder
+cd DesirMED-WP4
+
+# Install the required dependencies
+pip install -r requirements.txt
+
+# Run an example script
+python examples/landscape_analysis.py
+```
+
+---
+
+## Acknowledgments
+
+DesirMED is part of the Horizon Europe Programme and is supported by the European Union. The project team acknowledges the contributions of all partners, collaborators, and stakeholders who have made this initiative possible.
+
+[![Visit Project Page](https://img.shields.io/badge/Visit-Project%20Page-blue)](https://cordis.europa.eu/project/id/101112972)
+```
