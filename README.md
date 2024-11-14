@@ -64,6 +64,14 @@ This project contributes to the following tools and resources:
 
 ---
 
+## Acknowledgments
+
+DesirMED is a Horizon Europe-funded initiative supported by the **European Union Horizon Europe Programme**. The project team extends its gratitude to all partners, collaborators, and stakeholders for their invaluable contributions to advancing nature-based solutions for climate resilience in the Mediterranean region.
+
+We also acknowledge the efforts of local communities, research institutions, and policymakers who continue to play a critical role in implementing and promoting sustainable climate adaptation strategies.
+
+[![Visit Project Page](https://img.shields.io/badge/Visit-Project%20Page-blue)](https://cordis.europa.eu/project/id/101112972)
+
 ## Installation Guide
 
 ### Prerequisites
@@ -83,3 +91,5 @@ pip install -r requirements.txt
 
 # Run an example script
 python examples/landscape_analysis.py
+
+
