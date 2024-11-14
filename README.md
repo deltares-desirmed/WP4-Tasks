@@ -25,6 +25,21 @@
 
 ---
 
+### Focus of This Repository
+This repository supports **Work Package 4 (System Knowledge, Data & Design)**, particularly:
+
+1. **Task 4.1**: Identifying Key Landscape Features
+   - Characterizing Mediterranean landscapes in terms of climate resilience, resources, and ecosystem services.
+   - Mapping landscape interconnections to understand shared resources and services.
+
+2. **Task 4.2**: Developing Regional Risk Profiles
+   - Synthesizing climate-related risks across Demonstrating and Replicating Regions.
+   - Creating risk profile metrics that integrate climate and socioeconomic scenarios.
+
+For more information on the broader scope of DesirMED, visit the [official Horizon Europe Project page](https://cordis.europa.eu/project/id/101112972).
+
+---
+
 ## Repository Highlights
 
 This repository provides:
