@@ -62,23 +62,6 @@ This project contributes to the following tools and resources:
 
 ---
 
-## Contributors
-
-| Name               | Affiliation         | Role                 | Email                      |
-|--------------------|---------------------|----------------------|----------------------------|
-| John Doe           | CMCC               | Lead Researcher      | john.doe@cmcc.it           |
-| Jane Smith         | XYZ Institute      | Data Analyst         | jane.smith@xyz.org         |
-| Alice Johnson      | ABC University     | GIS Specialist       | alice.johnson@abc.edu      |
-| Bob Williams       | DEF Solutions      | Software Engineer    | bob.williams@def.com       |
-| Claire Roberts     | GHI Consulting     | Project Manager      | claire.roberts@ghi.org     |
-| David Brown        | JKL Institute      | Environmentalist     | david.brown@jkl.org        |
-| Emily Davis        | MNO University     | Research Assistant   | emily.davis@mno.edu        |
-| Frank Martin       | PQR Lab            | Data Scientist       | frank.martin@pqr.org       |
-| Grace Lee          | STU Analytics      | Climate Modeler      | grace.lee@stu.com          |
-| Henry Turner       | UVW Solutions      | Risk Analyst         | henry.turner@uvw.org       |
-
----
-
 ## Acknowledgments
 
 DesirMED is a Horizon Europe-funded initiative supported by the **European Union Horizon Europe Programme**. The project team extends its gratitude to all partners, collaborators, and stakeholders for their invaluable contributions to advancing nature-based solutions for climate resilience in the Mediterranean region.
@@ -86,6 +69,26 @@ DesirMED is a Horizon Europe-funded initiative supported by the **European Union
 We also acknowledge the efforts of local communities, research institutions, and policymakers who continue to play a critical role in implementing and promoting sustainable climate adaptation strategies.
 
 [![Visit Project Page](https://img.shields.io/badge/Visit-Project%20Page-blue)](https://cordis.europa.eu/project/id/101112972)
+
+
+---
+
+## Contributors
+
+| Name               | Affiliation         | Role                 | Email                         |
+|--------------------|---------------------|----------------------|-------------------------------|
+| Mindert de Vries   | Deltares            | Researcher           | Mindert.deVries@deltares.nl   |
+| Tom Bucx           | Deltares            | Researcher           | Tom.Bucx@deltares.nl          |
+| Katerina Tzavella  | Deltares            | Researcher           | katerina.Tzavella@deltares.nl |
+| Oriana Jovanovic   | Deltares            | Researcher           | oriana.jovanovic@deltares.nl  |
+| Silke Nauta        | Deltares            | Researcher           | Silke.Nauta@deltares.nl       |
+| Stefano Gamberoni  | Deltares            | Researcher           | Stefano.Gamberoni@deltares.nl |
+| Desmond Lartey     | Deltares            | Researcher           | desmond.lartey@deltares.nl    |
+| Vuong Pham         | CMCC                | Researcher           | vuong.pham@cmcc.it            |
+| Next               | CMCC                | Researcher           | grace.lee@stu.com             |
+| Next               | CMCC                | Researcher           | henry.turner@uvw.org          |
+
+---
 
 ## Installation Guide
 
