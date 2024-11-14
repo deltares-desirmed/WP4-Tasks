@@ -26,7 +26,7 @@
 ---
 
 ### Focus of This Repository
-This repository supports **Work Package 4 (System Knowledge, Data & Design)**, particularly:
+This repository supports the development and open source sharing of codes and analytical information useful to complete both tasks **Work Package 4 (System Knowledge, Data & Design)**, particularly:
 
 1. **Task 4.1**: Identifying Key Landscape Features
    - Characterizing Mediterranean landscapes in terms of climate resilience, resources, and ecosystem services.
