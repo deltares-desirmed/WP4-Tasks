@@ -1,39 +1,50 @@
+```markdown
 # DesirMED: Nature-Based Solutions for Climate Resilience in the Mediterranean
 
-![GitHub followers](https://img.shields.io/github/followers/DesirMED?style=social) ![Visitors](https://visitor-badge.laobi.icu/badge?page_id=DesirMED.WP4)  
-[Google Scholar](https://scholar.google.com) | [Official Horizon Page](https://cordis.europa.eu/project/id/101112972) | [ResearchGate](https://www.researchgate.net) | [LinkedIn](https://www.linkedin.com) | [Donate](https://www.buymeacoffee.com)  
+<p align="center">
+  <a href="https://github.com/DesirMED"><img alt="GitHub Followers" src="https://img.shields.io/github/followers/DesirMED?style=social"></a>
+  <a href="https://visitor-badge.laobi.icu/badge?page_id=DesirMED.WP4"><img alt="Visitors" src="https://visitor-badge.laobi.icu/badge?page_id=DesirMED.WP4"></a>
+</p>
 
-Welcome to the **DesirMED GitHub Repository**, a dedicated space to showcase ongoing work for Work Packages (WP) 4.1 and 4.2. This project is part of the Horizon Europe Project **DesirMED (101112972)** and focuses on integrating nature-based solutions (NbS) for fostering climate resilience across the Mediterranean region.
+<p align="center">
+  <a href="https://scholar.google.com" style="text-decoration:none;">
+    <img alt="Google Scholar" src="https://img.shields.io/badge/Google-Scholar-blue">
+  </a>
+  <a href="https://cordis.europa.eu/project/id/101112972" style="text-decoration:none;">
+    <img alt="Official Horizon Page" src="https://img.shields.io/badge/Official-Horizon%20Page-green">
+  </a>
+  <a href="https://www.researchgate.net" style="text-decoration:none;">
+    <img alt="ResearchGate" src="https://img.shields.io/badge/ResearchGate-Profile-blueviolet">
+  </a>
+  <a href="https://www.linkedin.com" style="text-decoration:none;">
+    <img alt="LinkedIn" src="https://img.shields.io/badge/My-LinkedIn-blue">
+  </a>
+  <a href="https://www.buymeacoffee.com" style="text-decoration:none;">
+    <img alt="Donate" src="https://img.shields.io/badge/Donate-Buy%20me%20a%20coffee-orange">
+  </a>
+</p>
 
 ---
 
 ## Project Scope
 
-Climate change presents critical challenges globally, with the Mediterranean identified as a high-risk region. DesirMED addresses these issues by:
+> **DesirMED** addresses critical climate risks in the Mediterranean region by implementing nature-based solutions for enhanced climate resilience.
 
+### Key Objectives:
 - Restoring degraded ecosystems with NbS.
 - Innovating adaptive governance systems.
-- Empowering local stakeholders with tools and knowledge to implement climate adaptation strategies.
-
-This repository specifically supports:
-
-- **WP 4.1**: Identifying key landscape features critical to climate resilience.
-- **WP 4.2**: Developing comprehensive risk profiles for targeted Mediterranean regions.
+- Empowering stakeholders with tools for effective adaptation.
 
 ---
 
-## Repository Overview
+## Repository Highlights
 
-This repository serves as a central hub for:
-
-- **Codebase**: Scripts and algorithms for analyzing Mediterranean landscapes.
-- **Geospatial Data**: Preprocessed datasets ready for modeling and visualization.
-- **Interactive Dashboards**: Visualization tools for landscape and climate risk profiling.
-
-### Quick Access to Articles and Outputs
-- **[Key Publications](#)**: Direct links to articles related to WP4.
-- **[D4.1 Report](#)**: "Guidelines for landscape characterization."
-- **[D4.2 Report](#)**: "Regional climate risk profiles."
+- **Scripts and Tools**: Codebase for geospatial analysis and visualizations.
+- **Interactive Dashboards**: Explore real-time data and climate metrics.
+- **Publications and Reports**:
+  - [Key Publications](#)
+  - [D4.1 Report: Landscape Characterization](#)
+  - [D4.2 Report: Climate Risk Profiles](#)
 
 ---
 
@@ -41,45 +52,47 @@ This repository serves as a central hub for:
 
 ### Prerequisites
 ```plaintext
-- Python >=3.8
-- Dependencies: geopandas, numpy, matplotlib, scipy
+Python >= 3.8
+Dependencies: geopandas, numpy, matplotlib, scipy
 ```
 
-### Steps
+### Setup Instructions
 ```bash
-# Clone the repository:
+# Clone the repository
 git clone https://github.com/DesirMED/DesirMED-WP4.git
 
-# Navigate to the directory:
+# Navigate to the project folder
 cd DesirMED-WP4
 
-# Install dependencies:
+# Install the required dependencies
 pip install -r requirements.txt
 
-# Run the example:
+# Run an example script
 python examples/landscape_analysis.py
 ```
 
 ---
 
-## Contributing
-We welcome contributions! Follow our [contribution guidelines](CONTRIBUTING.md) to get started.
+## Contributors
 
----
-
-## Project Contributors
-
-| Name                | Affiliation                | Role                     | Email                       |
-|---------------------|----------------------------|--------------------------|-----------------------------|
-| John Doe            | CMCC                      | Lead Researcher          | john.doe@cmcc.it            |
-| Jane Smith          | XYZ Institute             | Data Analyst             | jane.smith@xyz.org          |
-
----
-
-## Acknowledgments
-This project is supported by the **European Union Horizon Europe Programme**. Special thanks to all project partners for their contributions.
+| Name         | Affiliation        | Role               | Email                   |
+|--------------|--------------------|--------------------|-------------------------|
+| John Doe     | CMCC               | Lead Researcher    | john.doe@cmcc.it        |
+| Jane Smith   | XYZ Institute      | Data Analyst       | jane.smith@xyz.org      |
 
 ---
 
 ## License
-This repository is licensed under the [MIT License](LICENSE).
+Licensed under the [MIT License](LICENSE).
+
+---
+
+## Acknowledgments
+Supported by the **European Union Horizon Europe Programme**. Special thanks to all project partners.
+
+---
+
+<p align="center">
+  <a href="https://cordis.europa.eu/project/id/101112972"><img src="https://img.shields.io/badge/Visit-Project%20Page-blue"></a>
+</p>
+```
