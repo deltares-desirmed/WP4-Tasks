@@ -155,7 +155,7 @@ git push origin main
 
 ## 
 
-![](https://github.com/deltares-desirmed/WP4-Tasks/blob/main/Task%201/LandscapeArchetypes.gif)
+![](https://github.com/deltares-desirmed/WP4-Tasks/blob/main/Task%201/Lands.gif)
 
 ---
 
