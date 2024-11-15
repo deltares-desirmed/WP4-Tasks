@@ -73,24 +73,6 @@ We also acknowledge the efforts of local communities, research institutions, and
 
 ---
 
-## Contributors
-
-| Name               | Affiliation         | Role                 | Email                         |
-|--------------------|---------------------|----------------------|-------------------------------|
-| Mindert de Vries   | Deltares            | Researcher           | Mindert.deVries@deltares.nl   |
-| Tom Bucx           | Deltares            | Researcher           | Tom.Bucx@deltares.nl          |
-| Katerina Tzavella  | Deltares            | Researcher           | katerina.Tzavella@deltares.nl |
-| Oriana Jovanovic   | Deltares            | Researcher           | oriana.jovanovic@deltares.nl  |
-| Silke Nauta        | Deltares            | Researcher           | Silke.Nauta@deltares.nl       |
-| Stefano Gamberoni  | Deltares            | Researcher           | Stefano.Gamberoni@deltares.nl |
-| Desmond Lartey     | Deltares            | Researcher           | desmond.lartey@deltares.nl    |
-| Vuong Pham         | CMCC                | Researcher           | vuong.pham@cmcc.it            |
-| Next               | CMCC                | Researcher           | x                             |
-| Next               | CMCC                | Researcher           | x                             |
-
-
-
----
 
 ## How to Work on the Scripts together
 
@@ -156,6 +138,49 @@ git push origin main
 ```plaintext
 Python >= 3.8
 Dependencies: geopandas, numpy, matplotlib, scipy
+
+## Results and Updates
+
+### Applications
+| Application Name   | Description                                   | URL                              |
+|--------------------|-----------------------------------------------|----------------------------------|
+| Landscape Visualizer | An interactive tool for visualizing landscapes | [Visit App](https://example.com) |
+| Risk Analysis Tool | Analyze climate risks in Mediterranean regions | [Visit App](https://example.com) |
+| Geospatial Dashboard | Interactive maps for land use and ecosystems | [Visit App](https://example.com) |
+| Geospatial Dashboard | Interactive maps for land use and ecosystems | [Visit App](https://example.com) |
+| Geospatial Dashboard | Interactive maps for land use and ecosystems | [Visit App](https://example.com) |
+| Geospatial Dashboard | Interactive maps for land use and ecosystems | [Visit App](https://example.com) |
+| Geospatial Dashboard | Interactive maps for land use and ecosystems | [Visit App](https://example.com) |
+| Geospatial Dashboard | Interactive maps for land use and ecosystems | [Visit App](https://example.com) |
+
+---
+
+## Contributors
+
+| Name               | Affiliation         | Role                 | Email                         |
+|--------------------|---------------------|----------------------|-------------------------------|
+| Mindert de Vries   | Deltares            | Researcher           | Mindert.deVries@deltares.nl   |
+| Tom Bucx           | Deltares            | Researcher           | Tom.Bucx@deltares.nl          |
+| Katerina Tzavella  | Deltares            | Researcher           | katerina.Tzavella@deltares.nl |
+| Oriana Jovanovic   | Deltares            | Researcher           | oriana.jovanovic@deltares.nl  |
+| Silke Nauta        | Deltares            | Researcher           | Silke.Nauta@deltares.nl       |
+| Stefano Gamberoni  | Deltares            | Researcher           | Stefano.Gamberoni@deltares.nl |
+| Desmond Lartey     | Deltares            | Researcher           | desmond.lartey@deltares.nl    |
+| Vuong Pham         | CMCC                | Researcher           | vuong.pham@cmcc.it            |
+| Next               | CMCC                | Researcher           | x                             |
+| Next               | CMCC                | Researcher           | x                             |
+
+
+
+---
+
+## Last Updated
+
+© Copyright 2023, DesirMED Project.  
+Last updated on **Nov 15, 2024**, 11:45 AM.  
+Created using Markdown.  
+
+This work is licensed under a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/).
 
 
 # Clone the repository
