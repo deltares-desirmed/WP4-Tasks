@@ -108,13 +108,11 @@ Fork the repository to your personal GitHub account by clicking the **Fork** but
 Clone your forked repository to your local machine using:
 git clone https://github.com/deltares-desirmed/WP4-Tasks.git
 
----
 
 ## Step 4: Request Contributor Access (Optional)
 If you are working on a specific task (e.g., landscape characterization), navigate to the relevant folder in the repository. For instance:
 If you intend to contribute directly, submit a **Contributor Access Request** to the repository maintainers. Ensure you have reviewed the contribution guidelines in `CONTRIBUTING.md`.
 
----
 
 ### Step 5: Make Your Changes
 Add your new scripts, analytical tools, or updates to the appropriate folder. Ensure your changes are well-documented with clear descriptions in the script headers or markdown files. For example:
@@ -122,27 +120,24 @@ Add your new scripts, analytical tools, or updates to the appropriate folder. En
 - Input requirements
 - Expected outputs
 
----
 
 ### Step 6: Test Your Changes
 Run all necessary tests locally to ensure your additions work correctly and do not break existing scripts. For instance:
 python scripts/landscape_characterization/your_script.py
 
----
+
 
 ### Step 7: Commit Your Changes
 Stage and commit your changes with clear and concise messages:
 git add .
 git commit -m "Add new analysis for landscape characterization"
 
----
 
 ### Step 8: Push and Create a Pull Request
 Push your changes to your forked repository:
 git push origin main
 Navigate to the original repository and create a Pull Request (PR) with a detailed description of your updates.
 
----
 
 ### Step 9: Engage in Review
 Respond promptly to feedback from repository maintainers or reviewers. Make requested updates and resubmit the PR if necessary:
