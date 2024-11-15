@@ -106,8 +106,7 @@ Fork the repository to your personal GitHub account by clicking the **Fork** but
 
 ## Step 3: Clone Your Fork
 Clone your forked repository to your local machine using:
-git clone https://github.com/<your-username>/DesirMED-WP4.git
-cd DesirMED-WP4
+git clone https://github.com/deltares-desirmed/WP4-Tasks.git
 
 ---
 
@@ -147,8 +146,7 @@ Navigate to the original repository and create a Pull Request (PR) with a detail
 
 ### Step 9: Engage in Review
 Respond promptly to feedback from repository maintainers or reviewers. Make requested updates and resubmit the PR if necessary:
-git push origin main
-Respond promptly to feedback from repository maintainers or reviewers. Make requested updates and resubmit the PR if necessary:
+git push origin main. Make requested updates and resubmit the PR if necessary:
 
 # Edit the code as per feedback
 git add .
@@ -166,7 +164,7 @@ Dependencies: geopandas, numpy, matplotlib, scipy
 
 
 # Clone the repository
-git clone https://github.com/DesirMED/DesirMED-WP4.git
+git clone https://github.com/deltares-desirmed/WP4-Tasks.git
 
 # Navigate to the project folder
 cd DesirMED-WP4
