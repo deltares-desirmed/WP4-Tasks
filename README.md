@@ -151,11 +151,11 @@ git push origin main
 
 ## Demo
 
-![](https://i.imgur.com/6lj0oAO.png)
+![](https://github.com/deltares-desirmed/WP4-Tasks/blob/main/Task%201/Demos.png)
 
 ## 
 
-![](https://i.imgur.com/Z3dk6Tr.gif)
+![](https://github.com/deltares-desirmed/WP4-Tasks/blob/main/Task%201/LandscapeArchetypes.gif)
 
 ---
 
