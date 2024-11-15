@@ -143,8 +143,8 @@ Dependencies: geopandas, numpy, matplotlib, scipy
 
 ### Applications
 | Application Name   | Description                                   | URL                              |
-|--------------------|-----------------------------------------------|----------------------------------|
-| Landscape Visualizer | An interactive tool for visualizing landscapes | [Visit App](https://example.com) |
+|--------------------|-----------------------------------------------|-----------------------------------------|
+| Landscape Visualizer | An interactive tool for visualizing landscapes | [Visit App](https://desirmed.projects.earthengine.app/view/landscapearchetypes) |
 | Risk Analysis Tool | Analyze climate risks in Mediterranean regions | [Visit App](https://example.com) |
 | Geospatial Dashboard | Interactive maps for land use and ecosystems | [Visit App](https://example.com) |
 | Geospatial Dashboard | Interactive maps for land use and ecosystems | [Visit App](https://example.com) |
@@ -152,6 +152,7 @@ Dependencies: geopandas, numpy, matplotlib, scipy
 | Geospatial Dashboard | Interactive maps for land use and ecosystems | [Visit App](https://example.com) |
 | Geospatial Dashboard | Interactive maps for land use and ecosystems | [Visit App](https://example.com) |
 | Geospatial Dashboard | Interactive maps for land use and ecosystems | [Visit App](https://example.com) |
+
 
 ---
 
