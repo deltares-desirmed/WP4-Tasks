@@ -172,7 +172,7 @@ git push origin main
 
 © Copyright 2024, DesirMED Project.  
 Last updated on **Nov 15, 2024**, 11:45 AM.  
-Created using Markdown.  
+  
 
 This work is licensed under a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/).
 

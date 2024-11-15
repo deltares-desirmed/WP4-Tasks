@@ -1,0 +1,29 @@
+name: Update README Timestamp
+
+on:
+  push:
+    branches:
+      - main
+  schedule:
+    - cron: "0 0 * * *" # Runs daily at midnight
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v3
+
+    - name: Update Timestamp in README
+      run: |
+        CURRENT_DATE=$(date "+%b %d, %Y, %I:%M %p")
+        sed -i "s/Last updated on .*/Last updated on **$CURRENT_DATE**./" README.md
+
+    - name: Commit Changes
+      run: |
+        git config --local user.name "github-actions"
+        git config --local user.email "actions@github.com"
+        git add README.md
+        git commit -m "Update README timestamp"
+        git push
