@@ -132,13 +132,6 @@ git push origin main
 
 ---
 
-## Installation Guide
-
-### Prerequisites
-```plaintext
-Python >= 3.8
-Dependencies: geopandas, numpy, matplotlib, scipy
-
 ## Results and Updates
 
 ### Applications
@@ -183,6 +176,14 @@ Created using Markdown.
 
 This work is licensed under a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/).
 
+---
+
+## Installation Guide
+
+### Prerequisites
+```plaintext
+Python >= 3.8
+Dependencies: geopandas, numpy, matplotlib, scipy
 
 # Clone the repository
 git clone https://github.com/deltares-desirmed/WP4-Tasks.git
