@@ -137,7 +137,7 @@ git push origin main
 ### Applications
 | Application Name   | Description                                   | URL                              |
 |--------------------|-----------------------------------------------|-----------------------------------------|
-| Landscape Visualizer | An interactive tool for visualizing landscapes | [Visit App](https://desirmed.projects.earthengine.app/view/landscapearchetypes) |
+| Landscape Visualizer | An interactive tool for visualizing landscapes | [Visit App](https://desirmed.projects.earthengine.app/view/baseline-for-risk-assessment) |
 | Risk Analysis Tool | Analyze climate risks in Mediterranean regions | [Visit App](https://example.com) |
 | Geospatial Dashboard | Interactive maps for land use and ecosystems | [Visit App](https://example.com) |
 | Geospatial Dashboard | Interactive maps for land use and ecosystems | [Visit App](https://example.com) |
