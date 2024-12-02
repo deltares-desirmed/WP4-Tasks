@@ -166,9 +166,6 @@ git push origin main
 | Mindert de Vries   | Deltares            | Researcher           | Mindert.deVries@deltares.nl   |
 | Tom Bucx           | Deltares            | Researcher           | Tom.Bucx@deltares.nl          |
 | Katerina Tzavella  | Deltares            | Researcher           | katerina.Tzavella@deltares.nl |
-| Oriana Jovanovic   | Deltares            | Researcher           | oriana.jovanovic@deltares.nl  |
-| Silke Nauta        | Deltares            | Researcher           | Silke.Nauta@deltares.nl       |
-| Stefano Gamberoni  | Deltares            | Researcher           | Stefano.Gamberoni@deltares.nl |
 | Desmond Lartey     | Deltares            | Researcher           | desmond.lartey@deltares.nl    |
 | Vuong Pham         | CMCC                | Researcher           | vuong.pham@cmcc.it            |
 | Next               | CMCC                | Researcher           | x                             |
@@ -181,7 +178,7 @@ git push origin main
 ## Last Updated
 
 © Copyright 2024, DesirMED Project.  
-Last updated on **Nov 29, 2024**, 11:45 AM.  
+Last updated on **Dec 02, 2024**, 18:45.  
   
 
 This work is licensed under a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/).
