@@ -168,7 +168,7 @@ git push origin main
 | Katerina Tzavella  | Deltares            | Researcher           | katerina.Tzavella@deltares.nl |
 | Desmond Lartey     | Deltares            | Researcher           | desmond.lartey@deltares.nl    |
 | Vuong Pham         | CMCC                | Researcher           | vuong.pham@cmcc.it            |
-| Next               | CMCC                | Researcher           | x                             |
+| Fabio Favilli      | CMCC                | Researcher           | fabio.favilli@cmcc.it         |
 | Next               | CMCC                | Researcher           | x                             |
 
 
@@ -178,7 +178,7 @@ git push origin main
 ## Last Updated
 
 © Copyright 2024, DesirMED Project.  
-Last updated on **Dec 02, 2024**, 18:45.  
+Last updated on **Dec 10, 2024**, 12:45.  
   
 
 This work is licensed under a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/).
