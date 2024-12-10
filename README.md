@@ -76,7 +76,7 @@ We also acknowledge the efforts of local communities, research institutions, and
 
 ## How to Work on the Scripts together
 
-To maintain an organized and efficient repository, follow these step-by-step instructions for contributing to the project scripts:
+To maintain an organized and efficient repository, follow these step-by-step instructions for contributing to the project scripts,:
 
 ## Step 1: Identify Your Focus Area
 If you are working on a specific task (e.g., landscape characterization), navigate to the relevant folder in the repository. For instance:
