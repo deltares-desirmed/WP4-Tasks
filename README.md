@@ -1,6 +1,6 @@
 # DesirMED: Nature-Based Solutions for Climate Resilience in the Mediterranean
 
-[![GitHub Badge](https://img.shields.io/github/followers/DesirMED?style=social)](https://github.com/deltares-desirmed)
+[![GitHub Badge](https://img.shields.io/github/followers/deltares-desirmed?style=social)](https://github.com/deltares-desirmed)
 [![Publications Badge](https://img.shields.io/badge/Google-Scholar-lightgrey)](https://scholar.google.com)
 [![Official Horizon Page Badge](https://img.shields.io/badge/Official-Horizon%20Page-green)](https://cordis.europa.eu/project/id/101112972)
 [![ResearchGate Badge](https://img.shields.io/badge/ResearchGate-Profile-blueviolet)](https://www.researchgate.net)
