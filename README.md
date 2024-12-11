@@ -54,6 +54,7 @@ This repository provides:
   - [Landscape Archetypes](#)
   - [All hazard layers mapping](#)
   - [Interactive Landscape Dasboarding](#)
+  - [Interactive NbS Dasboarding](#)
 ---
 
 ## Open-Source Contributions
@@ -141,7 +142,7 @@ git push origin main
 ### Applications
 | Application Name   | Description                                   | URL                              |
 |--------------------|-----------------------------------------------|-----------------------------------------|
-| Landscape Visualizer | An interactive tool for visualizing landscapes | [Visit App](https://desirmed.projects.earthengine.app/view/baseline-for-risk-assessment) |
+| Landscape Archetypes | An interactive tool for visualizing landscapes | [Visit App](https://desirmed.projects.earthengine.app/view/baseline-for-risk-assessment) |
 | Risk Analysis Tool | Analyze climate risks in Mediterranean regions | [Visit App](https://example.com) |
 | Geospatial Dashboard | Interactive maps for land use and ecosystems | [Visit App](https://example.com) |
 | Geospatial Dashboard | Interactive maps for land use and ecosystems | [Visit App](https://example.com) |
@@ -154,10 +155,6 @@ git push origin main
 ---
 
 ## Demo
-
-![](https://github.com/deltares-desirmed/WP4-Tasks/blob/main/Task%201/Demos.png)
-
-## 
 
 ![](https://github.com/deltares-desirmed/WP4-Tasks/blob/main/Task%201/Lands2.gif)
 
@@ -182,7 +179,7 @@ git push origin main
 ## Last Updated
 
 © Copyright 2024, DesirMED Project.  
-Last updated on **Dec 10, 2024**, 12:45.  
+Last updated on **Dec 11, 2024**, 12:45.  
   
 
 This work is licensed under a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/).
