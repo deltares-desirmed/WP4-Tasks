@@ -5,6 +5,7 @@
 [![Official Horizon Page Badge](https://img.shields.io/badge/Official-Horizon%20Page-green)](https://cordis.europa.eu/project/id/101112972)
 [![ResearchGate Badge](https://img.shields.io/badge/ResearchGate-Profile-blueviolet)](https://www.researchgate.net)
 [![LinkedIn Badge](https://img.shields.io/badge/LinkedIn-blue)](https://www.linkedin.com/company/desirmed)
+[![Twitter Follow](https://img.shields.io/twitter/follow/DesirMED?style=social)](https://twitter.com/DesirMED)
 ![Visitor Badge](https://visitor-badge.laobi.icu/badge?page_id=DesirMED.WP4)
 
 ---
