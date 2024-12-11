@@ -56,8 +56,8 @@ This repository provides:
 
 This project contributes to the following tools and resources:
 
-- **Geospatial Analysis**: [geemap](https://github.com/DesirMED/geemap), [landcover-tools](https://github.com/DesirMED/landcover-tools)
-- **Interactive Mapping**: [gee-visualizer](https://github.com/DesirMED/gee-visualizer)
+- **Geospatial Analysis**: [NbSQuickscan](https://github.com/DesirMED/NbSQuickscan), [MappingNbS](https://github.com/DesirMED/mappingnbS-tools)
+- **Interactive Mapping**: [Make your own NbS](https://github.com/DesirMED/make-your-own-nbs)
 - **Climate Risk Models**: [climate-risk-profiles](https://github.com/DesirMED/climate-risk-profiles)
 
 ---
