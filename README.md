@@ -46,10 +46,14 @@ This repository provides:
 
 - **Python Scripts and Tools**: Geospatial analysis and climate-risk assessment.
 - **Interactive Dashboards**: Visualize data and key metrics related to Mediterranean ecosystems.
-- **Reports and Publications**:
+- **Reports and Publications for both task will here**:
   - [D4.1 Report: Landscape Characterization](#)
   - [D4.2 Report: Regional Climate Risk Profiles](#)
 
+- **All tutorials/step by step guide to implement technical aspects of the Tasks will be hosted on these webpages**:
+  - [Landscape Archetypes](#)
+  - [All hazard layers mapping](#)
+  - [Interactive Landscape Dasboarding](#)
 ---
 
 ## Open-Source Contributions
