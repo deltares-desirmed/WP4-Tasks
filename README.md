@@ -201,7 +201,7 @@ cd DesirMED-WP4
 # Install the required dependencies
 pip install -r requirements.txt
 
-# Run an example script
+# Run an example scripts
 python examples/landscape_analysis.py
 
 
