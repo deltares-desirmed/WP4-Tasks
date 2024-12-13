@@ -1,11 +1,11 @@
 # DesirMED: Nature-Based Solutions for Climate Resilience in the Mediterranean
 
-[![GitHub Badge](https://img.shields.io/github/followers/DesirMED?style=social)](https://github.com/deltares-desirmed)
-[![Google Scholar Badge](https://img.shields.io/badge/Google-Scholar-lightgrey)](https://scholar.google.com)
+[![GitHub Badge](https://img.shields.io/github/followers/deltares-desirmed?style=social)](https://github.com/deltares-desirmed)
+[![Publications Badge](https://img.shields.io/badge/Google-Scholar-lightgrey)](https://scholar.google.com)
 [![Official Horizon Page Badge](https://img.shields.io/badge/Official-Horizon%20Page-green)](https://cordis.europa.eu/project/id/101112972)
 [![ResearchGate Badge](https://img.shields.io/badge/ResearchGate-Profile-blueviolet)](https://www.researchgate.net)
-[![LinkedIn Badge](https://img.shields.io/badge/LinkedIn-blue)](https://www.linkedin.com/company/deltares/mycompany/)
-[![Donate Badge](https://img.shields.io/badge/Donate-Buy%20me%20a%20coffee-yellowgreen.svg)](https://www.buymeacoffee.com)
+[![LinkedIn Badge](https://img.shields.io/badge/LinkedIn-blue)](https://www.linkedin.com/company/desirmed)
+[![Twitter Follow](https://img.shields.io/twitter/follow/DesirMED?style=social)](https://twitter.com/DesirMED)
 ![Visitor Badge](https://visitor-badge.laobi.icu/badge?page_id=DesirMED.WP4)
 
 ---
@@ -46,18 +46,23 @@ This repository provides:
 
 - **Python Scripts and Tools**: Geospatial analysis and climate-risk assessment.
 - **Interactive Dashboards**: Visualize data and key metrics related to Mediterranean ecosystems.
-- **Reports and Publications**:
+- **Reports and Publications for both task will here**:
   - [D4.1 Report: Landscape Characterization](#)
   - [D4.2 Report: Regional Climate Risk Profiles](#)
 
+- **All tutorials/step by step guide to implement technical aspects of the Tasks will be hosted on these webpages**:
+  - [Landscape Archetypes](#)
+  - [All hazard layers mapping](#)
+  - [Interactive Landscape Dasboarding](#)
+  - [Interactive NbS Dasboarding](#)
 ---
 
 ## Open-Source Contributions
 
 This project contributes to the following tools and resources:
 
-- **Geospatial Analysis**: [geemap](https://github.com/DesirMED/geemap), [landcover-tools](https://github.com/DesirMED/landcover-tools)
-- **Interactive Mapping**: [gee-visualizer](https://github.com/DesirMED/gee-visualizer)
+- **Geospatial Analysis**: [NbSQuickscan](https://github.com/DesirMED/NbSQuickscan), [MappingNbS](https://github.com/DesirMED/mappingnbS-tools)
+- **Interactive Mapping**: [Make your own NbS](https://github.com/DesirMED/make-your-own-nbs)
 - **Climate Risk Models**: [climate-risk-profiles](https://github.com/DesirMED/climate-risk-profiles)
 
 ---
@@ -137,7 +142,7 @@ git push origin main
 ### Applications
 | Application Name   | Description                                   | URL                              |
 |--------------------|-----------------------------------------------|-----------------------------------------|
-| Landscape Visualizer | An interactive tool for visualizing landscapes | [Visit App](https://desirmed.projects.earthengine.app/view/baseline-for-risk-assessment) |
+| Landscape Archetypes | An interactive tool for visualizing landscapes | [Visit App](https://desirmed.projects.earthengine.app/view/baseline-for-risk-assessment) |
 | Risk Analysis Tool | Analyze climate risks in Mediterranean regions | [Visit App](https://example.com) |
 | Geospatial Dashboard | Interactive maps for land use and ecosystems | [Visit App](https://example.com) |
 | Geospatial Dashboard | Interactive maps for land use and ecosystems | [Visit App](https://example.com) |
@@ -150,10 +155,6 @@ git push origin main
 ---
 
 ## Demo
-
-![](https://github.com/deltares-desirmed/WP4-Tasks/blob/main/Task%201/Demos.png)
-
-## 
 
 ![](https://github.com/deltares-desirmed/WP4-Tasks/blob/main/Task%201/Lands2.gif)
 
@@ -178,7 +179,7 @@ git push origin main
 ## Last Updated
 
 © Copyright 2024, DesirMED Project.  
-Last updated on **Dec 10, 2024**, 12:45.  
+Last updated on **Dec 11, 2024**, 12:45.  
   
 
 This work is licensed under a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/).
