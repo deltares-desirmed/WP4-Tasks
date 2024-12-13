@@ -111,7 +111,7 @@ python scripts/landscape_characterization/your_script.py
 
 ### Step 7: Commit Your Changes
 Stage and commit your changes with clear and concise messages:
-git add .
+git add.
 git commit -m "Add new analysis for landscape characterization"
 
 
