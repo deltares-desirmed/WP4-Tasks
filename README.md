@@ -197,7 +197,7 @@ Dependencies: geopandas, numpy, matplotlib, scipy
 git clone https://github.com/deltares-desirmed/WP4-Tasks.git
 
 # Navigate to the project folder
-cd DesirMED-WP4
+cd DesirMED-WP4 
 
 # Install the required dependencies
 pip install -r requirements.txt
