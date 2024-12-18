@@ -169,8 +169,8 @@ git push origin main
 ### Applications
 | Application Name   | Description                                   | URL                              |
 |--------------------|-----------------------------------------------|-----------------------------------------|
-| Landscape Archetypes | An interactive tool for visualizing landscapes | [Visit App](https://desirmed.projects.earthengine.app/view/baseline-for-risk-assessment) |
-| Risk Analysis Tool | Analyze climate risks in Mediterranean regions | [Visit App](https://example.com) |
+| **Landscape Archetypes** | An interactive tool for visualizing landscapes | [Visit App](https://desirmed.projects.earthengine.app/view/baseline-for-risk-assessment) |
+| **EUNIS habitat classification** | EUNIS habitat classification in Mediterranean regions | [Visit App](https://desirmed.projects.earthengine.app/view/eunis-habitats-enhanced) |
 | Geospatial Dashboard | Interactive maps for land use and ecosystems | [Visit App](https://example.com) |
 | Geospatial Dashboard | Interactive maps for land use and ecosystems | [Visit App](https://example.com) |
 | Geospatial Dashboard | Interactive maps for land use and ecosystems | [Visit App](https://example.com) |
@@ -206,7 +206,7 @@ git push origin main
 ## Last Updated
 
 © Copyright 2024, DesirMED Project.  
-Last updated on **Dec 11, 2024**, 12:45.  
+Last updated on **Dec 17, 2024**, 16:45.  
   
 
 This work is licensed under a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/).
