@@ -152,14 +152,7 @@ To maintain an organized and efficient repository, follow these step-by-step ins
   ```<br/>
   [![Pull Request Guide](https://cdn.rawgit.com/sereneblue/awesome-oss/master/contribute.svg)](https://github.com/deltares-desirmed/pull-request-guide)
 
-- [**Engage in Review**](https://github.com/deltares-desirmed) - Respond to reviewer feedback and update your PR:
-  ```bash
-  # Make updates after feedback
-  git add .
-  git commit -m "Update analysis based on review feedback"
-  git push origin main
-  ```<br/>
-  [![Review Engagement Guide](https://cdn.rawgit.com/sereneblue/awesome-oss/master/contribute.svg)](https://github.com/deltares-desirmed/review-engagement-guide)
+- [**Engage in Review**](https://github.com/deltares-desirmed) - Respond to reviewer feedback and update your PR: Make updates after feedback
 
 
 ---
