@@ -18,7 +18,7 @@
 - [Repository Highlights](#repository-highlights)
 - [Open-Source Contributions](#open-source-contributions)
 - [Acknowledgments](#acknowledgments)
-- [How to Work on the Scripts](#how-to-work-on-the-scripts)
+- [How to Work on the Scripts](#how-to-work-on-the-scripts-together)
   - [Step 1: Identify Your Focus Area](#step-1-identify-your-focus-area)
   - [Step 2: Fork the Repository](#step-2-fork-the-repository)
   - [Step 3: Clone Your Fork](#step-3-clone-your-fork)
@@ -104,7 +104,6 @@ We also acknowledge the efforts of local communities, research institutions, and
 
 
 ---
-
 
 ## How to Work on the Scripts together
 
