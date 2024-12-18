@@ -108,11 +108,11 @@ We also acknowledge the efforts of local communities, research institutions, and
 
 ## How to Work on the Scripts together
 To maintain an organized and efficient repository, follow these step-by-step instructions for contributing to the project scripts,:
-- [Apache](https://httpd.apache.org/) - cross-platform web server software<br/>
-[![Contribute](https://cdn.rawgit.com/sereneblue/awesome-oss/master/contribute.svg)](https://wiki.apache.org/httpd/Contributing) [![Donate](https://cdn.rawgit.com/sereneblue/awesome-oss/master/donate.svg)](https://www.apache.org/foundation/contributing.html)
 
 
 ## Step 1: Identify Your Focus Area
+- [Apache](https://httpd.apache.org/) - cross-platform web server software<br/>
+[![Contribute](https://cdn.rawgit.com/sereneblue/awesome-oss/master/contribute.svg)](https://wiki.apache.org/httpd/
 If you are working on a specific task (e.g., landscape characterization), navigate to the relevant folder in the repository. For instance:
 - **Landscape Characterization**: `scripts/landscape_characterization/`
 - **Climate Risk Profiling**: `scripts/climate_risk_profiles/`
