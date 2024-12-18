@@ -161,10 +161,6 @@ To maintain an organized and efficient repository, follow these step-by-step ins
   ```<br/>
   [![Review Engagement Guide](https://cdn.rawgit.com/sereneblue/awesome-oss/master/contribute.svg)](https://github.com/deltares-desirmed/review-engagement-guide)
 
-# Edit the code as per feedback
-git add .
-git commit -m "Update analysis based on review feedback"
-git push origin main
 
 ---
 
@@ -211,7 +207,7 @@ git push origin main
 ## Last Updated
 
 © Copyright 2024, DesirMED Project.  
-Last updated on **Dec 17, 2024**, 16:45.  
+Last updated on **Dec 18, 2024**, 12:45.  
   
 
 This work is licensed under a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/).
