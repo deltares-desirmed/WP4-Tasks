@@ -140,19 +140,16 @@ To maintain an organized and efficient repository, follow these step-by-step ins
   [![Testing Guide](https://cdn.rawgit.com/sereneblue/awesome-oss/master/contribute.svg)](https://github.com/deltares-desirmed/testing-guide)
 
 - [**Commit Your Changes**](https://github.com/deltares-desirmed) - Stage and commit updates:
-  ```bash
-  git add .
-  git commit -m "Add new analysis for landscape characterization"
+
   ```<br/>
   [![Commit Best Practices](https://cdn.rawgit.com/sereneblue/awesome-oss/master/contribute.svg)](https://github.com/deltares-desirmed/commit-message-guide)
 
 - [**Push and Create a Pull Request**](https://github.com/deltares-desirmed) - Push changes and open a Pull Request:
-  ```bash
-  git push origin main
+
   ```<br/>
   [![Pull Request Guide](https://cdn.rawgit.com/sereneblue/awesome-oss/master/contribute.svg)](https://github.com/deltares-desirmed/pull-request-guide)
 
-- [**Engage in Review**] - Respond to reviewer feedback and update your PR: Make updates after feedback
+- [**Engage in Review**](https://github.com/deltares-desirmed) - Respond to reviewer feedback and update your PR: Make updates after feedback
 
 
 ---
