@@ -120,7 +120,6 @@ To maintain an organized and efficient repository, follow these step-by-step ins
 
 - [**Clone Your Fork**](https://github.com/deltares-desirmed/WP4-Tasks) - Clone the forked repository locally:
 
-  ```<br/>
   [![Cloning Guide](https://github.com/deltares-desirmed/guide-cloning-repo)]
 
 - [**Request Contributor Access**](https://github.com/deltares-desirmed) - Submit a contributor request for direct updates.<br/>
