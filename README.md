@@ -34,7 +34,7 @@
 - [Contributors](#contributors)
 - [Installation Guide](#installation-guide)
   - [Prerequisites](#prerequisites)
-- [Last Updated](#last-updated)
+- [Last Updated](#last-updated) 
 
 ---
 ## Project Scope
