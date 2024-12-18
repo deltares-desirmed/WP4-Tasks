@@ -109,7 +109,6 @@ We also acknowledge the efforts of local communities, research institutions, and
 ## How to Work on the Scripts together
 To maintain an organized and efficient repository, follow these step-by-step instructions for contributing to the project scripts,:
 
-
 ## Step 1: Identify Your Focus Area
 - [Apache](https://httpd.apache.org/) - cross-platform web server software<br/>
 [![Contribute](https://cdn.rawgit.com/sereneblue/awesome-oss/master/contribute.svg)](https://wiki.apache.org/httpd/
