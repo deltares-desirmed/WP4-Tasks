@@ -152,7 +152,7 @@ To maintain an organized and efficient repository, follow these step-by-step ins
   ```<br/>
   [![Pull Request Guide](https://cdn.rawgit.com/sereneblue/awesome-oss/master/contribute.svg)](https://github.com/deltares-desirmed/pull-request-guide)
 
-- [**Engage in Review**](https://github.com/deltares-desirmed) - Respond to reviewer feedback and update your PR: Make updates after feedback
+- [**Engage in Review**] - Respond to reviewer feedback and update your PR: Make updates after feedback
 
 
 ---
