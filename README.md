@@ -184,7 +184,7 @@ git push origin main
 ## Demo
 
 ![](https://github.com/deltares-desirmed/WP4-Tasks/blob/main/Task%201/Lands2.gif)
-
+![](https://github.com/deltares-desirmed/WP4-Tasks/blob/main/Task%201/Ecosysteminterconnectedness.gif)
 ---
 
 ## Contributors
