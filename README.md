@@ -10,6 +10,33 @@
 
 ---
 
+## Contents
+
+- [Project Scope](#project-scope)
+- [Key Objectives](#key-objectives)
+- [Focus of This Repository](#focus-of-this-repository)
+- [Repository Highlights](#repository-highlights)
+- [Open-Source Contributions](#open-source-contributions)
+- [Acknowledgments](#acknowledgments)
+- [How to Work on the Scripts](#how-to-work-on-the-scripts)
+  - [Step 1: Identify Your Focus Area](#step-1-identify-your-focus-area)
+  - [Step 2: Fork the Repository](#step-2-fork-the-repository)
+  - [Step 3: Clone Your Fork](#step-3-clone-your-fork)
+  - [Step 4: Request Contributor Access](#step-4-request-contributor-access)
+  - [Step 5: Make Your Changes](#step-5-make-your-changes)
+  - [Step 6: Test Your Changes](#step-6-test-your-changes)
+  - [Step 7: Commit Your Changes](#step-7-commit-your-changes)
+  - [Step 8: Push and Create a Pull Request](#step-8-push-and-create-a-pull-request)
+  - [Step 9: Engage in Review](#step-9-engage-in-review)
+- [Results and Updates](#results-and-updates)
+- [Applications](#applications)
+- [Demo](#demo)
+- [Contributors](#contributors)
+- [Installation Guide](#installation-guide)
+  - [Prerequisites](#prerequisites)
+- [Last Updated](#last-updated)
+
+---
 ## Project Scope
 
 **DesirMED** is a Horizon Europe-funded initiative focused on addressing the unique challenges posed by climate change in the Mediterranean region. This repository highlights the work from **Work Packages (WP) 4.1 and 4.2**, which aim to:
