@@ -119,8 +119,7 @@ To maintain an organized and efficient repository, follow these step-by-step ins
   [![Guide to Forking](https://cdn.rawgit.com/sereneblue/awesome-oss/master/contribute.svg)](https://github.com/deltares-desirmed/guide-fork-repo)
 
 - [**Clone Your Fork**](https://github.com/deltares-desirmed/WP4-Tasks) - Clone the forked repository locally:
-  ```bash
-  git clone https://github.com/your-username/WP4-Tasks.git
+
   ```<br/>
   [![Cloning Guide](https://cdn.rawgit.com/sereneblue/awesome-oss/master/contribute.svg)](https://github.com/deltares-desirmed/guide-cloning-repo)
 
@@ -134,8 +133,7 @@ To maintain an organized and efficient repository, follow these step-by-step ins
   [![Documentation Guide](https://cdn.rawgit.com/sereneblue/awesome-oss/master/contribute.svg)](https://github.com/deltares-desirmed/documentation-guide)
 
 - [**Test Your Changes**](https://github.com/deltares-desirmed) - Run tests to ensure nothing breaks:
-  ```bash
-  python scripts/landscape_characterization/your_script.py
+
   ```<br/>
   [![Testing Guide](https://cdn.rawgit.com/sereneblue/awesome-oss/master/contribute.svg)](https://github.com/deltares-desirmed/testing-guide)
 
@@ -147,7 +145,7 @@ To maintain an organized and efficient repository, follow these step-by-step ins
 - [**Push and Create a Pull Request**](https://github.com/deltares-desirmed) - Push changes and open a Pull Request:
 
   ```<br/>
-  [![Pull Request Guide](https://cdn.rawgit.com/sereneblue/awesome-oss/master/contribute.svg)](https://github.com/deltares-desirmed/pull-request-guide)
+  [![Pull Request Guide](https://cdn.rawgit.com/sereneblue/awesome-oss/master/contribute.svg)]
 
 - [**Engage in Review**](https://github.com/deltares-desirmed) - Respond to reviewer feedback and update your PR: Make updates after feedback
 
