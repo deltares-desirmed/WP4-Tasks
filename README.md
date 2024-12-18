@@ -136,15 +136,11 @@ To maintain an organized and efficient repository, follow these step-by-step ins
 
   <br/>
 
-
 - [**Commit Your Changes**](https://github.com/deltares-desirmed) - Stage and commit updates:
 
   <br/>
 
 - [**Push and Create a Pull Request**](https://github.com/deltares-desirmed) - Push changes and open a Pull Request:
- 
-  <br/>
-  [![Pull Request Guide](https://cdn.rawgit.com/sereneblue/awesome-oss/master/contribute.svg)](https://github.com/deltares-desirmed/pull-request-guide)
 
 
 - [**Engage in Review**](https://github.com/deltares-desirmed) - Respond to reviewer feedback and update your PR: Make updates after feedback
