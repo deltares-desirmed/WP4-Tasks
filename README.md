@@ -134,17 +134,17 @@ To maintain an organized and efficient repository, follow these step-by-step ins
 
 - [**Test Your Changes**](https://github.com/deltares-desirmed) - Run tests to ensure nothing breaks:
 
-  ```<br/>
+  <br/>
   [![Testing Guide](https://cdn.rawgit.com/sereneblue/awesome-oss/master/contribute.svg)](https://github.com/deltares-desirmed/testing-guide)
 
 - [**Commit Your Changes**](https://github.com/deltares-desirmed) - Stage and commit updates:
 
-  ```<br/>
+  <br/>
   [![Commit Best Practices](https://cdn.rawgit.com/sereneblue/awesome-oss/master/contribute.svg)](https://github.com/deltares-desirmed/commit-message-guide)
 
 - [**Push and Create a Pull Request**](https://github.com/deltares-desirmed) - Push changes and open a Pull Request:
 
-  ```<br/>
+  <br/>
   [![Pull Request Guide](https://cdn.rawgit.com/sereneblue/awesome-oss/master/contribute.svg)]
 
 - [**Engage in Review**](https://github.com/deltares-desirmed) - Respond to reviewer feedback and update your PR: Make updates after feedback
