@@ -19,15 +19,15 @@
 - [Open-Source Contributions](#open-source-contributions)
 - [Acknowledgments](#acknowledgments)
 - [How to Work on the Scripts](#how-to-work-on-the-scripts)
-  - [Identify Your Focus Area](#identify-your-focus-area)
-  - [Fork the Repository](#fork-the-repository)
-  - [Clone Your Fork](#clone-your-fork)
-  - [Request Contributor Access](#request-contributor-access)
-  - [Make Your Changes](#make-your-changes)
-  - [Test Your Changes](#test-your-changes)
-  - [Commit Your Changes](#commit-your-changes)
-  - [Push and Create a Pull Request](#push-and-create-a-pull-request)
-  - [Engage in Review](#engage-in-review)
+  - [Step 1: Identify Your Focus Area](#step-1-identify-your-focus-area)
+  - [Step 2: Fork the Repository](#step-2-fork-the-repository)
+  - [Step 3: Clone Your Fork](#step-3-clone-your-fork)
+  - [Step 4: Request Contributor Access](#step-4-request-contributor-access)
+  - [Step 5: Make Your Changes](#step-5-make-your-changes)
+  - [Step 6: Test Your Changes](#step-6-test-your-changes)
+  - [Step 7: Commit Your Changes](#step-7-commit-your-changes)
+  - [Step 8: Push and Create a Pull Request](#step-8-push-and-create-a-pull-request)
+  - [Step 9: Engage in Review](#step-9-engage-in-review)
 - [Results and Updates](#results-and-updates)
 - [Applications](#applications)
 - [Demo](#demo)
@@ -105,62 +105,64 @@ We also acknowledge the efforts of local communities, research institutions, and
 
 ---
 
+
 ## How to Work on the Scripts together
 To maintain an organized and efficient repository, follow these step-by-step instructions for contributing to the project scripts,:
 - [Apache](https://httpd.apache.org/) - cross-platform web server software<br/>
 [![Contribute](https://cdn.rawgit.com/sereneblue/awesome-oss/master/contribute.svg)](https://wiki.apache.org/httpd/Contributing) [![Donate](https://cdn.rawgit.com/sereneblue/awesome-oss/master/donate.svg)](https://www.apache.org/foundation/contributing.html)
 
 
-- [Identify Your Focus Area](https://github.com/deltares-desirmed) - Navigate to relevant folders such as:
-  - **Landscape Characterization**: `scripts/landscape_characterization/`
-  - **Climate Risk Profiling**: `scripts/climate_risk_profiles/`<br/>
-  [![Support](https://cdn.rawgit.com/sereneblue/awesome-oss/master/contribute.svg)](https://github.com/deltares-desirmed/guide-focus-areas)
+## Step 1: Identify Your Focus Area
+If you are working on a specific task (e.g., landscape characterization), navigate to the relevant folder in the repository. For instance:
+- **Landscape Characterization**: `scripts/landscape_characterization/`
+- **Climate Risk Profiling**: `scripts/climate_risk_profiles/`
 
-- [Fork the Repository](https://github.com/deltares-desirmed/WP4-Tasks) - Fork this project to your GitHub account.<br/>
-  [![Guide to Forking](https://cdn.rawgit.com/sereneblue/awesome-oss/master/contribute.svg)](https://github.com/deltares-desirmed/guide-fork-repo)
+## Step 2: Fork the Repository
+Fork the repository to your personal GitHub account by clicking the **Fork** button on the repository page.
 
-- [Clone Your Fork](https://github.com/deltares-desirmed/WP4-Tasks) - Clone the forked repository locally:
-  ```bash
-  git clone https://github.com/your-username/WP4-Tasks.git
-  ```<br/>
-  [![Cloning Guide](https://cdn.rawgit.com/sereneblue/awesome-oss/master/contribute.svg)](https://github.com/deltares-desirmed/guide-cloning-repo)
+## Step 3: Clone Your Fork
+Clone your forked repository to your local machine using:
+git clone https://github.com/deltares-desirmed/WP4-Tasks.git
 
-- [Request Contributor Access](https://github.com/deltares-desirmed) - Submit a contributor request for direct updates.<br/>
-  [![Contributor Access](https://cdn.rawgit.com/sereneblue/awesome-oss/master/contribute.svg)](https://github.com/deltares-desirmed/contributor-access-guide)
 
-- [Make Your Changes](https://github.com/deltares-desirmed) - Add scripts and updates with clear documentation:
-  - Purpose of the script
-  - Input requirements
-  - Expected outputs<br/>
-  [![Documentation Guide](https://cdn.rawgit.com/sereneblue/awesome-oss/master/contribute.svg)](https://github.com/deltares-desirmed/documentation-guide)
+## Step 4: Request Contributor Access (Optional)
+If you are working on a specific task (e.g., landscape characterization), navigate to the relevant folder in the repository. For instance:
+If you intend to contribute directly, submit a **Contributor Access Request** to the repository maintainers. Ensure you have reviewed the contribution guidelines in `CONTRIBUTING.md`.
 
-- [Test Your Changes](https://github.com/deltares-desirmed) - Run tests to ensure nothing breaks:
-  ```bash
-  python scripts/landscape_characterization/your_script.py
-  ```<br/>
-  [![Testing Guide](https://cdn.rawgit.com/sereneblue/awesome-oss/master/contribute.svg)](https://github.com/deltares-desirmed/testing-guide)
 
-- [Commit Your Changes](https://github.com/deltares-desirmed) - Stage and commit updates:
-  ```bash
-  git add .
-  git commit -m "Add new analysis for landscape characterization"
-  ```<br/>
-  [![Commit Best Practices](https://cdn.rawgit.com/sereneblue/awesome-oss/master/contribute.svg)](https://github.com/deltares-desirmed/commit-message-guide)
+### Step 5: Make Your Changes
+Add your new scripts, analytical tools, or updates to the appropriate folder. Ensure your changes are well-documented with clear descriptions in the script headers or markdown files. For example:
+- Purpose of the script
+- Input requirements
+- Expected outputs
 
-- [Push and Create a Pull Request](https://github.com/deltares-desirmed) - Push changes and open a Pull Request:
-  ```bash
-  git push origin main
-  ```<br/>
-  [![Pull Request Guide](https://cdn.rawgit.com/sereneblue/awesome-oss/master/contribute.svg)](https://github.com/deltares-desirmed/pull-request-guide)
 
-- [Engage in Review](https://github.com/deltares-desirmed) - Respond to reviewer feedback and update your PR:
-  ```bash
-  # Make updates after feedback
-  git add .
-  git commit -m "Update analysis based on review feedback"
-  git push origin main
-  ```<br/>
-  [![Review Engagement Guide](https://cdn.rawgit.com/sereneblue/awesome-oss/master/contribute.svg)](https://github.com/deltares-desirmed/review-engagement-guide)
+### Step 6: Test Your Changes
+Run all necessary tests locally to ensure your additions work correctly and do not break existing scripts. For instance:
+python scripts/landscape_characterization/your_script.py
+
+
+
+### Step 7: Commit Your Changes
+Stage and commit your changes with clear and concise messages:
+git add.
+git commit -m "Add new analysis for landscape characterization"
+
+
+### Step 8: Push and Create a Pull Request
+Push your changes to your forked repository:
+git push origin main
+Navigate to the original repository and create a Pull Request (PR) with a detailed description of your updates.
+
+
+### Step 9: Engage in Review
+Respond promptly to feedback from repository maintainers or reviewers. Make requested updates and resubmit the PR if necessary:
+git push origin main. Make requested updates and resubmit the PR if necessary:
+
+# Edit the code as per feedback
+git add .
+git commit -m "Update analysis based on review feedback"
+git push origin main
 
 ---
 
