@@ -142,8 +142,8 @@ git push origin main
 ### Applications
 | Application Name   | Description                                   | URL                              |
 |--------------------|-----------------------------------------------|-----------------------------------------|
-| **Landscape Archetypes** | An interactive tool for visualizing landscapes | [Visit App](https://desirmed.projects.earthengine.app/view/baseline-for-risk-assessment) |
-| **EUNIS habitat classification** | EUNIS habitat classification in Mediterranean regions | [Visit App](https://desirmed.projects.earthengine.app/view/eunis-habitats-enhanced) |
+| **Landscape Archetypes** | **An interactive tool for visualizing landscapes** | [Visit App](https://desirmed.projects.earthengine.app/view/baseline-for-risk-assessment) |
+| **EUNIS habitat classification** | **EUNIS habitat classification in Mediterranean regions** | [Visit App](https://desirmed.projects.earthengine.app/view/eunis-habitats-enhanced) |
 | Geospatial Dashboard | Interactive maps for land use and ecosystems | [Visit App](https://example.com) |
 | Geospatial Dashboard | Interactive maps for land use and ecosystems | [Visit App](https://example.com) |
 | Geospatial Dashboard | Interactive maps for land use and ecosystems | [Visit App](https://example.com) |
