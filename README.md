@@ -10,6 +10,33 @@
 
 ---
 
+## Contents
+
+- [Project Scope](#project-scope)
+- [Key Objectives](#key-objectives)
+- [Focus of This Repository](#focus-of-this-repository)
+- [Repository Highlights](#repository-highlights)
+- [Open-Source Contributions](#open-source-contributions)
+- [Acknowledgments](#acknowledgments)
+- [How to Work on the Scripts](#how-to-work-on-the-scripts-together)
+  - [Identify Your Focus Area](#identify-your-focus-area)
+  - [Fork the Repository](#fork-the-repository)
+  - [Clone Your Fork](#clone-your-fork)
+  - [Request Contributor Access](#request-contributor-access)
+  - [Make Your Changes](#make-your-changes)
+  - [Test Your Changes](#test-your-changes)
+  - [Commit Your Changes](#commit-your-changes)
+  - [Push and Create a Pull Request](#push-and-create-a-pull-request)
+  - [Engage in Review](#engage-in-review)
+- [Results and Updates](#results-and-updates)
+- [Applications](#applications)
+- [Demo](#demo)
+- [Contributors](#contributors)
+- [Installation Guide](#installation-guide)
+  - [Prerequisites](#prerequisites)
+- [Last Updated](#last-updated)
+
+---
 ## Project Scope
 
 **DesirMED** is a Horizon Europe-funded initiative focused on addressing the unique challenges posed by climate change in the Mediterranean region. This repository highlights the work from **Work Packages (WP) 4.1 and 4.2**, which aim to:
@@ -78,62 +105,43 @@ We also acknowledge the efforts of local communities, research institutions, and
 
 ---
 
-
 ## How to Work on the Scripts together
 
 To maintain an organized and efficient repository, follow these step-by-step instructions for contributing to the project scripts,:
 
-## Step 1: Identify Your Focus Area
-If you are working on a specific task (e.g., landscape characterization), navigate to the relevant folder in the repository. For instance:
-- **Landscape Characterization**: `scripts/landscape_characterization/`
-- **Climate Risk Profiling**: `scripts/climate_risk_profiles/`
 
-## Step 2: Fork the Repository
-Fork the repository to your personal GitHub account by clicking the **Fork** button on the repository page.
+- [**Identify Your Focus Area**](https://github.com/deltares-desirmed) - Navigate to relevant folders such as:
+  - **Landscape Characterization**: `scripts/landscape_characterization/`
+  - **Climate Risk Profiling**: `scripts/climate_risk_profiles/`<br/>
+  [![Support](https://cdn.rawgit.com/sereneblue/awesome-oss/master/contribute.svg)](https://github.com/deltares-desirmed/guide-focus-areas)
 
-## Step 3: Clone Your Fork
-Clone your forked repository to your local machine using:
-git clone https://github.com/deltares-desirmed/WP4-Tasks.git
+- [**Fork the Repository**](https://github.com/deltares-desirmed/WP4-Tasks) - Fork this project to your GitHub account.<br/>
+  [![Guide to Forking](https://cdn.rawgit.com/sereneblue/awesome-oss/master/contribute.svg)](https://github.com/deltares-desirmed/guide-fork-repo)
 
+- [**Clone Your Fork**](https://github.com/deltares-desirmed/WP4-Tasks) - Clone the forked repository locally:
 
-## Step 4: Request Contributor Access (Optional)
-If you are working on a specific task (e.g., landscape characterization), navigate to the relevant folder in the repository. For instance:
-If you intend to contribute directly, submit a **Contributor Access Request** to the repository maintainers. Ensure you have reviewed the contribution guidelines in `CONTRIBUTING.md`.
+  [Cloning Guide](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository)
 
+- [**Request Contributor Access**](https://github.com/deltares-desirmed) - Submit a contributor request for direct updates.<br/>
+  [![Contributor Access](https://cdn.rawgit.com/sereneblue/awesome-oss/master/contribute.svg)](https://github.com/deltares-desirmed/contributor-access-guide)
 
-### Step 5: Make Your Changes
-Add your new scripts, analytical tools, or updates to the appropriate folder. Ensure your changes are well-documented with clear descriptions in the script headers or markdown files. For example:
-- Purpose of the script
-- Input requirements
-- Expected outputs
+- [**Make Your Changes**](https://github.com/deltares-desirmed) - Add scripts and updates with clear documentation:
+  - Purpose of the script
+  - Input requirements
+  - Expected outputs<br/>
+  [![Documentation Guide](https://cdn.rawgit.com/sereneblue/awesome-oss/master/contribute.svg)](https://github.com/deltares-desirmed/documentation-guide)
 
-
-### Step 6: Test Your Changes
-Run all necessary tests locally to ensure your additions work correctly and do not break existing scripts. For instance:
-python scripts/landscape_characterization/your_script.py
+- [**Test Your Changes**](https://github.com/deltares-desirmed) - Run tests to ensure nothing breaks:
 
 
-
-### Step 7: Commit Your Changes
-Stage and commit your changes with clear and concise messages:
-git add.
-git commit -m "Add new analysis for landscape characterization"
+- [**Commit Your Changes**](https://github.com/deltares-desirmed) - Stage and commit updates:
 
 
-### Step 8: Push and Create a Pull Request
-Push your changes to your forked repository:
-git push origin main
-Navigate to the original repository and create a Pull Request (PR) with a detailed description of your updates.
+- [**Push and Create a Pull Request**](https://github.com/deltares-desirmed) - Push changes and open a Pull Request:
 
 
-### Step 9: Engage in Review
-Respond promptly to feedback from repository maintainers or reviewers. Make requested updates and resubmit the PR if necessary:
-git push origin main. Make requested updates and resubmit the PR if necessary:
+- [**Engage in Review**](https://github.com/deltares-desirmed) - Respond to reviewer feedback and update your PR: Make updates after feedback
 
-# Edit the code as per feedback
-git add .
-git commit -m "Update analysis based on review feedback"
-git push origin main
 
 ---
 
@@ -158,6 +166,7 @@ git push origin main
 
 ![](https://github.com/deltares-desirmed/WP4-Tasks/blob/main/Task%201/Lands2.gif)
 
+![](https://github.com/deltares-desirmed/WP4-Tasks/blob/main/Task%201/Ecosysteminterconnectedness.gif)
 ---
 
 ## Contributors
@@ -179,7 +188,7 @@ git push origin main
 ## Last Updated
 
 © Copyright 2024, DesirMED Project.  
-Last updated on **Dec 17, 2024**, 16:45.  
+Last updated on **Dec 18, 2024**, 12:45.  
   
 
 This work is licensed under a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/).
