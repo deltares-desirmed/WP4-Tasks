@@ -208,7 +208,7 @@ git clone https://github.com/deltares-desirmed/WP4-Tasks.git
 # Navigate to the project folder
 cd DesirMED-WP4 
 
-# Install the required dependencies
+# Install the required dependencies if needed
 pip install -r requirements.txt
 
 # Run an example scripts
