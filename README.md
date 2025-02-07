@@ -77,11 +77,8 @@ This repository provides:
   - [D4.1 Report: Landscape Characterization](#)
   - [D4.2 Report: Regional Climate Risk Profiles](#)
 
-- **All tutorials/step by step guide to implement technical aspects of the Tasks will be hosted on these webpages**:
-  - [Landscape Archetypes](#)
-  - [All hazard layers mapping](#)
-  - [Interactive Landscape Dasboarding](#)
-  - [Interactive NbS Dasboarding](#)
+- **All tutorials/step by step guide to implement technical aspects of the Tasks will be hosted on this webpage**:
+  - [A hands-on guide](https://deltares-desirmed.github.io/nbs-workflow/index.html)
 ---
 
 ## Open-Source Contributions
