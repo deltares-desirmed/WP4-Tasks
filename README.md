@@ -184,8 +184,7 @@ To maintain an organized and efficient repository, follow these step-by-step ins
 
 ## Last Updated
 
-© Copyright 2024, DesirMED Project.  
-Last updated on **February 6, 2025**, 10:45.  
+© Copyright 2025, DesirMED Project.   
   
 
 This work is licensed under a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/).
