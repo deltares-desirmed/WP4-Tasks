@@ -104,9 +104,7 @@ To maintain an organized and efficient repository, follow these step-by-step ins
 - [**Fork the Repository**](https://github.com/deltares-desirmed/WP4-Tasks)
   [![Guide to Forking](https://cdn.rawgit.com/sereneblue/awesome-oss/master/contribute.svg)](https://github.com/deltares-desirmed/guide-fork-repo)
 
-- [**Clone Your Fork**](https://github.com/deltares-desirmed/WP4-Tasks) - Clone the forked repository locally:
-
-  [Cloning Guide](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository)
+- [**Clone Your Fork**](https://github.com/deltares-desirmed/WP4-Tasks) [Cloning Guide](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository)
 
 - [**Request Contributor Access**](https://github.com/deltares-desirmed) - Submit a pull request for direct updates.<br/>
   [![Contributor Access](https://cdn.rawgit.com/sereneblue/awesome-oss/master/contribute.svg)](https://github.com/deltares-desirmed/contributor-access-guide)
@@ -131,12 +129,9 @@ To maintain an organized and efficient repository, follow these step-by-step ins
 |--------------------|-----------------------------------------------|-----------------------------------------|
 | **Landscape Archetypes** | **An interactive tool for visualizing landscapes** | [Visit App](https://desirmed.projects.earthengine.app/view/baseline-for-risk-assessment) |
 | **EUNIS habitat classification** | **EUNIS habitat classification in Mediterranean regions** | [Visit App](https://desirmed.projects.earthengine.app/view/eunis-habitats-enhanced) |
-| GIS Support | **Interactive MULTI GIS platform** | [Visit App](https://deltares-multi-gis-support.streamlit.app/) |
+| **GIS Support** | **Interactive MULTI GIS platform** | [Visit App](https://deltares-multi-gis-support.streamlit.app/) |
 | Geospatial Dashboard | Interactive maps for land use and ecosystems | [Visit App](https://example.com) |
-| Geospatial Dashboard | Interactive maps for land use and ecosystems | [Visit App](https://example.com) |
-| Geospatial Dashboard | Interactive maps for land use and ecosystems | [Visit App](https://example.com) |
-| Geospatial Dashboard | Interactive maps for land use and ecosystems | [Visit App](https://example.com) |
-| Geospatial Dashboard | Interactive maps for land use and ecosystems | [Visit App](https://example.com) |
+
 
 
 ---
