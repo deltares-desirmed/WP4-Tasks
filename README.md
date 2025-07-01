@@ -19,15 +19,6 @@
 - [Open-Source Contributions](#open-source-contributions)
 - [Acknowledgments](#acknowledgments)
 - [How to Work on the Scripts](#how-to-work-on-the-scripts-together)
-  - [Identify Your Focus Area](#identify-your-focus-area)
-  - [Fork the Repository](#fork-the-repository)
-  - [Clone Your Fork](#clone-your-fork)
-  - [Request Contributor Access](#request-contributor-access)
-  - [Make Your Changes](#make-your-changes)
-  - [Test Your Changes](#test-your-changes)
-  - [Commit Your Changes](#commit-your-changes)
-  - [Push and Create a Pull Request](#push-and-create-a-pull-request)
-  - [Engage in Review](#engage-in-review)
 - [Results and Updates](#results-and-updates)
 - [Applications](#applications)
 - [Demo](#demo)
@@ -107,37 +98,28 @@ We also acknowledge the efforts of local communities, research institutions, and
 To maintain an organized and efficient repository, follow these step-by-step instructions for contributing to the project scripts,:
 
 
-- [**Identify Your Focus Area**](https://github.com/deltares-desirmed) - Navigate to relevant folders such as:
-  - **Landscape Characterization**: `scripts/landscape_characterization/`
-  - **Climate Risk Profiling**: `scripts/climate_risk_profiles/`<br/>
+- [**Identify Your Focus Area**](https://github.com/deltares-desirmed)
   [![Support](https://cdn.rawgit.com/sereneblue/awesome-oss/master/contribute.svg)](https://github.com/deltares-desirmed/guide-focus-areas)
 
-- [**Fork the Repository**](https://github.com/deltares-desirmed/WP4-Tasks) - Fork this project to your GitHub account.<br/>
+- [**Fork the Repository**](https://github.com/deltares-desirmed/WP4-Tasks)
   [![Guide to Forking](https://cdn.rawgit.com/sereneblue/awesome-oss/master/contribute.svg)](https://github.com/deltares-desirmed/guide-fork-repo)
 
 - [**Clone Your Fork**](https://github.com/deltares-desirmed/WP4-Tasks) - Clone the forked repository locally:
 
   [Cloning Guide](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository)
 
-- [**Request Contributor Access**](https://github.com/deltares-desirmed) - Submit a contributor request for direct updates.<br/>
+- [**Request Contributor Access**](https://github.com/deltares-desirmed) - Submit a pull request for direct updates.<br/>
   [![Contributor Access](https://cdn.rawgit.com/sereneblue/awesome-oss/master/contribute.svg)](https://github.com/deltares-desirmed/contributor-access-guide)
 
 - [**Make Your Changes**](https://github.com/deltares-desirmed) - Add scripts and updates with clear documentation:
   - Purpose of the script
   - Input requirements
-  - Expected outputs<br/>
   [![Documentation Guide](https://cdn.rawgit.com/sereneblue/awesome-oss/master/contribute.svg)](https://github.com/deltares-desirmed/documentation-guide)
 
 - [**Test Your Changes**](https://github.com/deltares-desirmed) - Run tests to ensure nothing breaks:
 
 
 - [**Commit Your Changes**](https://github.com/deltares-desirmed) - Stage and commit updates:
-
-
-- [**Push and Create a Pull Request**](https://github.com/deltares-desirmed) - Push changes and open a Pull Request:
-
-
-- [**Engage in Review**](https://github.com/deltares-desirmed) - Respond to reviewer feedback and update your PR: Make updates after feedback
 
 
 ---
@@ -149,7 +131,7 @@ To maintain an organized and efficient repository, follow these step-by-step ins
 |--------------------|-----------------------------------------------|-----------------------------------------|
 | **Landscape Archetypes** | **An interactive tool for visualizing landscapes** | [Visit App](https://desirmed.projects.earthengine.app/view/baseline-for-risk-assessment) |
 | **EUNIS habitat classification** | **EUNIS habitat classification in Mediterranean regions** | [Visit App](https://desirmed.projects.earthengine.app/view/eunis-habitats-enhanced) |
-| Geospatial Dashboard | Interactive maps for land use and ecosystems | [Visit App](https://example.com) |
+| GIS Support | **Interactive MULTI GIS platform** | [Visit App](https://deltares-multi-gis-support.streamlit.app/) |
 | Geospatial Dashboard | Interactive maps for land use and ecosystems | [Visit App](https://example.com) |
 | Geospatial Dashboard | Interactive maps for land use and ecosystems | [Visit App](https://example.com) |
 | Geospatial Dashboard | Interactive maps for land use and ecosystems | [Visit App](https://example.com) |
