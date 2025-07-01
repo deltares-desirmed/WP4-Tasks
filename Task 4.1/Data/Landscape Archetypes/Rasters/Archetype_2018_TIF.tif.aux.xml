@@ -1,0 +1,22 @@
+<PAMDataset>
+  <PAMRasterBand band="1">
+    <Description>archetype2018</Description>
+    <Histograms>
+      <HistItem>
+        <HistMin>-0.4666666666666667</HistMin>
+        <HistMax>14.46666666666667</HistMax>
+        <BucketCount>15</BucketCount>
+        <IncludeOutOfRange>0</IncludeOutOfRange>
+        <Approximate>0</Approximate>
+        <HistCounts>82065759|1365154|19087|50055|40414|1817466|1492209|3394695|1108507|2792990|16903|37236|77919|109672|45201199</HistCounts>
+      </HistItem>
+    </Histograms>
+    <Metadata>
+      <MDI key="STATISTICS_MINIMUM">0</MDI>
+      <MDI key="STATISTICS_MAXIMUM">14</MDI>
+      <MDI key="STATISTICS_MEAN">5.1098466633519</MDI>
+      <MDI key="STATISTICS_STDDEV">6.4547656898994</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">100</MDI>
+    </Metadata>
+  </PAMRasterBand>
+</PAMDataset>
