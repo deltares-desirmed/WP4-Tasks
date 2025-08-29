@@ -127,7 +127,7 @@ To maintain an organized and efficient repository, follow these step-by-step ins
 ### Applications
 | Application Name   | Description                                   | URL                              |
 |--------------------|-----------------------------------------------|-----------------------------------------|
-| **Landscape Archetypes** | **An interactive tool for visualizing landscapes** | [Visit App](https://desirmed.projects.earthengine.app/view/baseline-for-risk-assessment) |
+| **Landscape Character demo** | **An interactive tool for visualizing different Landscape Charcter domain** | [Visit App](https://desirmed.projects.earthengine.app/view/baseline-for-risk-assessment) |
 | **EUNIS habitat classification** | **EUNIS habitat classification in Mediterranean regions** | [Visit App](https://desirmed.projects.earthengine.app/view/eunis-habitats-enhanced) |
 | **GIS Support** | **Interactive MULTI GIS platform** | [Visit App](https://deltares-multi-gis-support.streamlit.app/) |
 | Geospatial Dashboard | Interactive maps for land use and ecosystems | [Visit App](https://example.com) |
@@ -179,7 +179,7 @@ cd DesirMED-WP4
 # Install the required dependencies if needed
 pip install -r requirements.txt
 
-# Run an example scripts
+# Run an example script
 python examples/landscape_analysis.py
 
 
