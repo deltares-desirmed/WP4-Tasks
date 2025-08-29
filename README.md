@@ -147,13 +147,8 @@ To maintain an organized and efficient repository, follow these step-by-step ins
 
 | Name               | Affiliation         | Role                 | Email                         |
 |--------------------|---------------------|----------------------|-------------------------------|
-| Mindert de Vries   | Deltares            | Researcher           | Mindert.deVries@deltares.nl   |
-| Tom Bucx           | Deltares            | Researcher           | Tom.Bucx@deltares.nl          |
-| Katerina Tzavella  | Deltares            | Researcher           | katerina.Tzavella@deltares.nl |
-| Desmond Lartey     | Deltares            | Researcher           | desmond.lartey@deltares.nl    |
-| Vuong Pham         | CMCC                | Researcher           | vuong.pham@cmcc.it            |
-| Fabio Favilli      | CMCC                | Researcher           | fabio.favilli@cmcc.it         |
-| Next               | CMCC                | Researcher           | x                             |
+| Desmond Lartey     | Deltares            | Researcher           | larteydesmond3@gmail.com      |
+| Next               | ....                | ....                 | .                             |
 
 
 
