@@ -268,11 +268,17 @@ var hill = ee.Terrain.hillshade(srtm)
 var gfd = ee.ImageCollection('GLOBAL_FLOOD_DB/MODIS_EVENTS/V1');
 
 // Flood hazard = count of satellite-observed floods (exclude permanent water)
+//.select('flooded').sum() → adds up all the times a pixel was seen flooded. The result is how often each pixel got flooded (Flood Hazard Index, FHI).
+
 var FHI_raw = gfd.select('flooded').sum().rename('FHI').clip(cantabria);
 var JRC_perm = gfd.select('jrc_perm_water').sum().gte(1);
 var FHI = FHI_raw.updateMask(JRC_perm.not()); // mask-out permanent water
 
 // Fire hazard = months burned at least once (2000–2019)
+//Look at every month from 2000–2019. Mark if a pixel burned that month (yes is 1/no is 0).
+//Count how many months it burned in total. That number is fire hazard for that location. Later on we will use those values to nromalise 
+//our fire hazard layer from 0 to 1 or from less pixel burn to high
+
 var burnedMonthly = ee.ImageCollection('MODIS/061/MCD64A1')
   .select('BurnDate')
   .filterDate('2000-01-01','2019-01-01')
