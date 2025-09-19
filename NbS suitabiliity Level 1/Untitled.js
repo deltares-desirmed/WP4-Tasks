@@ -618,27 +618,54 @@ var basins_HS_restore = basins_scored.filter(
   )
 );
 
-// === Basin-level hotspot layers ===
+
+// --- Fallback if none found ---
+basins_HS_protect = ee.Algorithms.If(
+  basins_HS_protect.size().gt(0),
+  basins_HS_protect,
+  basins_scored.sort('prio_protect', false).limit(5)   //  fallback: top 5 protect basins
+);
+basins_HS_protect = ee.FeatureCollection(basins_HS_protect);
+
+basins_HS_restore = ee.Algorithms.If(
+  basins_HS_restore.size().gt(0),
+  basins_HS_restore,
+  basins_scored.sort('prio_refor', false).limit(5)     //  fallback: top 5 restore basins
+);
+basins_HS_restore = ee.FeatureCollection(basins_HS_restore);
+
+// === Add basin hotspot layers to the map ===
+
+// All basins (context, optional)
+Map.addLayer(
+  basinsL12.style({color: 'gray', width: 1}),
+  {},
+  'All basins (context)',
+  false
+);
+
+// Protect hotspot basins (green)
 Map.addLayer(
   basins_HS_protect.style({
-    color: '006d2c',  // dark green
-    fillColor: '00FF0050', // transparent green fill
+    color: '006d2c',       // dark green outline
+    fillColor: '00FF0050', // semi-transparent green fill
     width: 2
   }),
   {},
   'Basin HS · Protect',
-  false
+  true
 );
 
+// Restore hotspot basins (blue)
 Map.addLayer(
   basins_HS_restore.style({
-    color: '08519c',  // dark blue
-    fillColor: '0000FF50', // transparent blue fill
+    color: '08519c',       // dark blue outline
+    fillColor: '0000FF50', // semi-transparent blue fill
     width: 2
   }),
   {},
   'Basin HS · Restore',
-  false
+  true
 );
 
 // ======================================================
