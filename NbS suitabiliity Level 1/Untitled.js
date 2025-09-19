@@ -257,9 +257,6 @@ Map.addLayer(erosionAdj, {min: 0, max: 1.5, palette: palette}, 'Erosion Mitigati
 // Logic per hazard: Priority = Hazard_Intensity × (1 − Mitigation_Capacity)
 // ======================================================
 
-// ======================================================
-// NBS HOTSPOT PRIORITIZATION — DISTINCT BY HAZARD (with prints)
-// ======================================================
 
 // Base map + boundary
 var hill = ee.Terrain.hillshade(srtm)
@@ -292,6 +289,10 @@ Map.addLayer(FIRE.visualize({min:0, max:24, palette:['fff5eb','fd8d3c','e6550d',
              {}, 'STEP 1b · Fire Hazard (count)');
 
 // ---------------- Helpers for adaptive percentiles (robust keys) ----------------
+//Sometimes, some of the pixels don't burn or get flooded at all. These helpers are making sure you can safely compute percentiles of positive pixel values 
+//from an image in a region without your script crashing. Also helps you if the dictionary keys are named differently (p95 vs Band_p95), or
+//The dictionary is empty (e.g., no positive pixels).
+//So basically: “Get me the 95th percentile (or any percentile) of positive pixels in this image, and don’t break if the data is missing or weirdly named.”
 function dictFirstNumber_(dict, fallback) {
   dict = ee.Dictionary(dict);
   var keys = dict.keys();
@@ -333,6 +334,8 @@ function posPctlThreshold(img01, pct, geom, scale, fallback) {
 }
 
 // --------------- STEP 2. Normalize hazards (0..1) with positive-only p95 ---------------
+//We are taking raw hazard data (flood and fire), finding a “reasonable high” cutoff (95th percentile of positive pixels),
+//and then scaling everything between 0 and 1 so that hazards (and later mitigation) can be fairly compared
 var FHI_max = ee.Number(
   FHI.reduceRegion({reducer: ee.Reducer.max(), geometry: cantabria.geometry(),
                     scale: 250, maxPixels: 1e13, bestEffort: true, tileScale: 2}).get('FHI')
@@ -370,6 +373,11 @@ Map.addLayer(fireMit.visualize({min:0, max:1, palette:['f7fcf5','a6dba0','1b7837
              {}, 'STEP 3b · Fire Mitigation (0–1)');
 
 // --------------- STEP 4. Mitigation GAP (1 − mitigation) ---------------
+//By doing 1 – mitigation, you flip it: If mitigation = 1 (strong protection), the gap = 0 → no gap.
+//If mitigation = 0 (no protection), the gap = 1 → big gap.
+//So you’re calculating how much protection is missing. mitigation tells you how strong the protection is.
+//1 – mitigation tells you the leftover vulnerability (the gap). If mitigation = 0.5 (medium protection), the gap = 0.5
+
 var floodGap = ee.Image(1).subtract(floodMit).rename('flood_gap');
 var fireGap  = ee.Image(1).subtract(fireMit).rename('fire_gap');
 
@@ -379,6 +387,10 @@ Map.addLayer(fireGap.visualize({min:0, max:1, palette:['ffffff','fde0ef','d6604d
              {}, 'STEP 4b · Fire Gap (low capacity)');
 
 // --------------- STEP 5. PRIORITY per hazard ---------------
+//Because you want to prioritise aress needing attention,  you want these areas to be high only when:
+/The hazard is strong, and the mitigation gap is large. So that if either is small (low hazard or strong mitigation), the priority will be low.
+//prioFlood (and prioFire) tells you where action is most needed. In simple term, we combine danger (hazard) with lack of protection (gap) into one score between 0 and 1.
+  
 var prioFlood = floodHaz.multiply(floodGap).rename('prio_flood');  // 0..1
 var prioFire  = fireHaz.multiply(fireGap).rename('prio_fire');     // 0..1
 
@@ -396,6 +408,11 @@ Map.addLayer(prioFire.visualize({min:0, max:1, palette: prioPal, opacity:0.95}),
              {}, 'STEP 5b · NbS Priority (FIRE)');
 
 // --------------- STEP 6. HOTSPOTS per hazard (top 20%) — positive-only percentiles ---------------
+//in step 5 we have done prioFlood / prioFire are your priority maps (hazard × gap, scaled 0–1).
+//We now will like to mark the worst areas i.e the hotspots. To do this, you use percentile thresholds:
+//Flood: 60th percentile, Fire: 80th percentile. That means: For flood, you keep the top 40% of highest-priority pixels.
+//For fire, you keep the top 20% of highest-priority pixels. The function posPctlThreshold finds that cutoff value (e.g., 0.6 or 0.75) and makes sure it’s safe
+
 var thFlood = posPctlThreshold(prioFlood, 60, cantabria.geometry(), 100, 0.2);
 var thFire  = posPctlThreshold(prioFire,  80, cantabria.geometry(), 100, 0.2);
 //print('STEP 6 (fixed) · Hotspot thresholds (p80 on pos-only) → Flood:', thFlood, 'Fire:', thFire);
@@ -409,6 +426,12 @@ Map.addLayer(hotspotFire.visualize({palette:['#ff7f00'], opacity:0.65}).clip(can
              {}, 'STEP 6b · HOTSPOT (FIRE)');
 
 // --------------- STEP 7. PROTECT / ENHANCE zones — adaptive (percentiles) ---------------
+//Here we only want to keep places where flood danger is above average and protection is also above average.
+//Hazard ≥ 55th percentile = flood danger is in the top half (higher than most places).
+//Mitigation ≥ 55th percentile = mitigation is also in the top half (better than most places).
+//So together, these are areas where floods matter and nature/mitigation is already working well.
+//That makes them valuable zones worth protecting. Note, we apply a self mask jsut to see the visible areas
+  
 var hzFloodP70  = posPercentile(floodHaz, 55, cantabria.geometry(), 250, 0.6);
 var mitFloodP70 = posPercentile(floodMit, 55, cantabria.geometry(), 100, 0.6);
 var hzFireP70   = posPercentile(fireHaz,  70, cantabria.geometry(), 500, 0.6);
@@ -429,7 +452,7 @@ Map.addLayer(protectFire.visualize({palette:['#238b45'], opacity:0.85}).clip(can
 
 // ======================================================
 // FUNCTIONAL UNITS + ES–DEMAND COUPLING (NbS mitigation logic)
-// Uses your existing vars: cantabria, slope, corine, floodAdj, floodHaz,
+// Uses existing vars: cantabria, slope, corine, floodAdj, floodHaz,
 // helpers posPercentile / posPctlThreshold, and Map set up.
 // ======================================================
 
@@ -595,10 +618,32 @@ var basins_HS_restore = basins_scored.filter(
   )
 );
 
+// === Basin-level hotspot layers ===
+Map.addLayer(
+  basins_HS_protect.style({
+    color: '006d2c',  // dark green
+    fillColor: '00FF0050', // transparent green fill
+    width: 2
+  }),
+  {},
+  'Basin HS · Protect',
+  false
+);
+
+Map.addLayer(
+  basins_HS_restore.style({
+    color: '08519c',  // dark blue
+    fillColor: '0000FF50', // transparent blue fill
+    width: 2
+  }),
+  {},
+  'Basin HS · Restore',
+  false
+);
 
 // ======================================================
 // FUNCTIONAL HOTSPOTS (single categorical layer)
-// Uses your existing: cantabria, corine, slope, floodAdj, floodHaz,
+// Uses existing: cantabria, corine, slope, floodAdj, floodHaz,
 // and helpers: posPctlThreshold(...)
 // ======================================================
 
