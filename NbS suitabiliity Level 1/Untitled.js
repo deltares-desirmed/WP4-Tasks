@@ -1,3 +1,11 @@
+// =========================================
+// This work contains multiple pieces of NBRACER AND DESIRMED
+// In NBRACER, this is part of the operationalisation of level 1 of D5.1 framework
+// It extends it implementation at the Biophysical Level for D5.3
+// In DesirMED, this extends objective 3 of Task 4.1 (DOA); characterise ecosystem services of the 
+// different Mediterranean regions to a more place-based NbS hotspots. Note that there are different scenarios, 
+// (A) NbS hotspots with risk considerations and (B) NbS hotspots without risk.
+// =========================================
 
 // =========================================
 // 1. Load all boundary levels
@@ -10,7 +18,7 @@ var cantabria = ee.FeatureCollection ('projects/ee-desmond/assets/France')
 
 
 // =========================================
-// 4. Elevation, Slope, and Aspect
+// Elevation, Slope, and Aspect
 // =========================================
 
 // Load SRTM elevation (30m)
