@@ -7,6 +7,10 @@
 // (A) NbS hotspots with risk considerations and (B) NbS hotspots without risk.
 // =========================================
 
+// A step-by-step guide on how to replicate this for your region and the conceptual/technical assumptions 
+// are explained here https://deltares-desirmed.github.io/nbs-workflow/Mapping_Ecosystem_services.html
+
+
 // =========================================
 // 1. Load all boundary levels
 // =========================================
