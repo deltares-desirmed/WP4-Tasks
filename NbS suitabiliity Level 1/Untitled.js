@@ -4,7 +4,7 @@
 // It extends it implementation at the Biophysical Level for D5.3
 // In DesirMED, this extends objective 3 of Task 4.1 (DOA); characterise ecosystem services of the 
 // different Mediterranean regions to a more place-based NbS hotspots. Note that there are different scenarios, 
-// (A) NbS hotspots with risk considerations and (B) NbS hotspots without risk.
+// (A) NbS hotspots with risk considerations and (B) NbS hotspots without risk with mitigation as benchmark.
 // =========================================
 
 // A step-by-step guide on how to replicate this for your region and the conceptual/technical assumptions 
