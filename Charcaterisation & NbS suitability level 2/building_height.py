@@ -101,7 +101,7 @@ for country, region, path in shapefiles:
         )
 
         gdf.boundary.plot(ax=ax, edgecolor='black', linewidth=0.7)
-        ax.set_title(f"{region} – Building Heights", fontsize=13, fontweight='bold')
+        ax.set_title(f"{region} Building Heights", fontsize=13, fontweight='bold')
         ax.set_xlabel("Longitude")
         ax.set_ylabel("Latitude")
         ax.set_facecolor('white')
