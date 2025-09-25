@@ -9,10 +9,10 @@ from urllib.request import urlretrieve
 
 # === Initialize Earth Engine ===
 try:
-    ee.Initialize(project='ee-desmond')
+    ee.Initialize(project='XXXXXXXXX')  # Replace with your GEE project ID
 except Exception:
     ee.Authenticate()
-    ee.Initialize(project='ee-desmond')
+    ee.Initialize(project='XXXXXXXXX')
 
 # === Define SARL Asset ===
 sarl = ee.Image("projects/sat-io/open-datasets/SARL")

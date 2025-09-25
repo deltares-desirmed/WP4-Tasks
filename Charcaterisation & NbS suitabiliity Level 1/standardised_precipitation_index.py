@@ -34,7 +34,7 @@ shapefile = 'ne_10m_admin_0_countries_ind.zip'
 download(data_url + shapefile)
 
 # Initialize Earth Engine
-cloud_project = 'ee-desmond'
+cloud_project = 'XXXXXXXXXXXX'  # Replace with your GEE project ID
 
 try:
     ee.Initialize(project=cloud_project, opt_url='https://earthengine-highvolume.googleapis.com')

@@ -8,10 +8,10 @@ import numpy as np
 
 # Initialize Earth Engine
 try:
-    ee.Initialize(project='ee-desmond')
+    ee.Initialize(project='XXXXXXXXX')
 except Exception:
     ee.Authenticate()
-    ee.Initialize(project='ee-desmond')
+    ee.Initialize(project='XXXXXXXXX')
 
 # Folders and configuration
 base_folder = r"C:\Users\Gebruiker\OneDrive\DesirMED info\Paper\case_study_locations"
