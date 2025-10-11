@@ -12,7 +12,7 @@ try:
     ee.Initialize(project='XXXXXXXXX')  # Replace with your GEE project ID
 except Exception:
     ee.Authenticate()
-    ee.Initialize(project='XXXXXXXXX')
+    ee.Initialize(project='XXXXXXXXX') # Replace with your GEE project ID
 
 # === Define SARL Asset ===
 sarl = ee.Image("projects/sat-io/open-datasets/SARL")
