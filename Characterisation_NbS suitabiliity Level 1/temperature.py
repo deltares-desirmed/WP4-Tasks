@@ -1,8 +1,11 @@
+#%%
 import os
 import requests
 import xarray as xr
 
 # 1. Define filename and URL for surface air temperature
+# if it breaks, copy paste the following link to your browser. Download will start automatically.
+# https://psl.noaa.gov/data/gridded/data.ncep.reanalysis.derived.surface.html 
 filename = 'air.mon.mean.nc'
 url = 'https://psl.noaa.gov/thredds/fileServer/Datasets/ncep.reanalysis.derived/surface/air.mon.mean.nc'
 
@@ -23,7 +26,7 @@ air = ds['air']
 # Check basic info
 print(air)
 
-
+#%%
 
 
 import xarray as xr
@@ -33,7 +36,7 @@ import pandas as pd
 import os
 
 # 1. Load temperature dataset
-file_path = r'C:\Users\Gebruiker\OneDrive\DesirMED info\Paper\air.mon.mean.nc'
+file_path = r"C:\Users\Downloads\air.mon.mean.nc" # Update with your local path
 ds = xr.open_dataset(file_path)
 
 # 2. Fix longitude format
@@ -87,9 +90,6 @@ fig.suptitle('Global Surface Temperature Anomaly - 2024', fontsize=16)
 plt.show()
 
 
-
-
-
 #Set mapping to meditaranean
 # 10. Set up the plot with a regional-friendly projection
 projection = ccrs.Mercator()
@@ -126,3 +126,46 @@ fig.suptitle('Mediterranean Temperature Anomaly - 2024', fontsize=16)
 
 plt.show()
 
+
+# %%
+out_dir = r"C:\Users\" # specify your output directory here
+da = anomaly2024.rename({'lon': 'x', 'lat': 'y'})
+# 2. Set spatial dimensions
+da = da.rio.set_spatial_dims(x_dim='x', y_dim='y')
+# 3. Assign CRS (WGS84)
+da= da.rio.write_crs("EPSG:4326", inplace=True)  # set CRS (WGS84)
+# 4. reduce dtype for smaller files
+da = da.astype('float32')
+
+# 5. write compressed multi-band GTiff (time->bands)
+# for i in range(da.sizes['time']):
+#     arr = da.isel(time=i)
+#     date_str = pd.to_datetime(arr.time.values).strftime("%Y-%m")
+#     out_file = os.path.join(out_dir, f"anomaly_{date_str}.tif")
+#     arr.rio.to_raster(out_file, driver="GTiff", compress="LZW", tiled=True)
+#     print("Wrote:", out_file)
+
+#%% If you want to save the data only for the Mediterranean region
+# 6. Clip to boundary 
+
+# Clip to bounding box: [min_lon, min_lat, max_lon, max_lat]
+da = da.rio.clip_box(minx=-10, miny=35, maxx=30, maxy=50)
+
+# Reduce dtype
+da = da.astype('float32')
+
+# Save each time slice as compressed GeoTIFF
+for i in range(da.sizes['time']):
+    arr = da.isel(time=i)
+    date_str = pd.to_datetime(arr.time.values).strftime("%Y-%m")
+    out_file = os.path.join(out_dir, f"temperature_anomaly_MED_{date_str}.tif")
+    arr.rio.to_raster(out_file, driver="GTiff", compress="LZW", tiled=True)
+    print("Wrote:", out_file)
+
+# if you have a shapefile boundary, you can use:
+# import geopandas as gpd
+# boundary = gpd.read_file("path_to_your_shapefile.shp")
+# da = da.rio.clip(boundary.geometry, boundary.crs)
+
+
+# %%
