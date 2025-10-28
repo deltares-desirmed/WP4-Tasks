@@ -138,7 +138,7 @@ To maintain an organized and efficient repository, follow these step-by-step ins
 
 ## Demo
 
-![](https://github.com/deltares-desirmed/WP4-Tasks/blob/main/Task%204.1/Lands2.gif)
+![](https://github.com/deltares-desirmed/WP4-Tasks/blob/main/Demo%20for%20regions%20OLD/Lands2.gif)
 ![](https://github.com/deltares-desirmed/multi-gis-framework/blob/main/img/demo.gif)
 ![](https://github.com/deltares-desirmed/WP4-Tasks/blob/main/Task%204.1/Ecosysteminterconnectedness.gif)
 
